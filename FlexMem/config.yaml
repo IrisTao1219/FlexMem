@@ -1,0 +1,12 @@
+### foundation
+sample_fps: 1
+max_num_frames: 1024
+tokens_per_frame: 210 #210/182
+
+### flexmem
+chunk_size: 8 # Frames number of a chunk
+preblk: 12 # Number of prefill memory chunks
+preratio: 4 #  Compression rate of prefill memory
+decratio: 2 # Compression rate of decoding memory
+topb: 32 # Number of chunks retrieved during decoding
+

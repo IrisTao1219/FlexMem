@@ -1,0 +1,79 @@
+#!/bin/bash
+ROOT_DIR="FlexMem-fast"
+
+if [ ! -e $ROOT_DIR ]; then
+    echo "The root dir does not exist. Exiting the script."
+    exit 1
+fi
+
+cd $ROOT_DIR
+
+export python3WARNINGS=ignore
+export TOKENIZERS_PARALLELISM=false
+export CUDA_LAUNCH_BLOCKING=1
+export PYTHONPATH="$ROOT_DIR:$PYTHONPATH"
+export DECORD_EOF_RETRY_MAX=20480
+
+CKPT= #Your Model Path
+DATA_ROOT= #Your MLVU Root
+VIDEO_DIR=${DATA_ROOT}/video
+GT_FILE=${DATA_ROOT}/annotations/multiple_choice.json
+CONV_MODE=qwen_1_5
+
+POOL_STRIDE=2
+OVERWRITE=True
+QUESTION_TYPE=multi_choice
+
+EVAL_ONLY=False
+CHUNKS=8
+FRAMES=99
+CONFIG_PATH=config.yaml
+GEN_METHOD=generate_until
+
+Test=0
+
+if [ "$OVERWRITE" = False ]; then
+    SAVE_DIR=$(basename $CKPT)_${CONV_MODE}_frames_${FRAMES}_stride_${POOL_STRIDE}_test_${Test}_${GEN_METHOD}_${QUESTION_TYPE}_overwrite_${OVERWRITE}
+else
+    SAVE_DIR=$(basename $CKPT)_${CONV_MODE}_frames_${FRAMES}_stride_${POOL_STRIDE}_test_${Test}_${GEN_METHOD}_${QUESTION_TYPE}
+fi
+
+echo $SAVE_DIR
+
+# Assuming GPULIST is a bash array containing your GPUs
+GPULIST=(0 1 2 3 4 5 6 7)
+# Get the number of GPUs
+NUM_GPUS=${#GPULIST[@]}
+
+# Calculate GPUs per chunk
+GPUS_PER_CHUNK=$((NUM_GPUS / CHUNKS))
+
+if [ "$EVAL_ONLY" == False ]; then
+    for IDX in $(seq 1 $CHUNKS); do
+        START=$(((IDX-1) * GPUS_PER_CHUNK))
+        LENGTH=$GPUS_PER_CHUNK 
+        CHUNK_GPUS=(${GPULIST[@]:$START:$LENGTH})      
+        CHUNK_GPUS_STR=$(IFS=,; echo "${CHUNK_GPUS[*]}")
+
+        echo "CUDA_VISIBLE_DEVICES=$CHUNK_GPUS_STR"
+        CUDA_VISIBLE_DEVICES=$CHUNK_GPUS_STR python3 llava/eval/model_mlvu_stream.py \
+            --model-path $CKPT \
+            --video_dir $VIDEO_DIR \
+            --gt_file $GT_FILE \
+            --output_dir ./work_dirs/eval_mlvu/$SAVE_DIR \
+            --output_name pred \
+            --num-chunks $CHUNKS \
+            --chunk-idx $(($IDX - 1)) \
+            --for_get_frames_num $FRAMES \
+            --config_path $CONFIG_PATH \
+            --generate_method $GEN_METHOD \
+            --conv-mode $CONV_MODE &
+    done
+
+    wait
+fi
+
+python3 ./scripts/video/mlvu/calculate_score.py \
+    --output_dir ./work_dirs/eval_mlvu/$SAVE_DIR \
+    --eval_type $QUESTION_TYPE \
+    --num-chunks $CHUNKS
