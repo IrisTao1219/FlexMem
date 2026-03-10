@@ -404,11 +404,11 @@ class Qwen2Attention(nn.Module):
                 _, retrieval_indices = final_attn_weights.topk(retrieval_cal_len)
                 retrieval_indices = retrieval_indices.sort().values # [keep_len]
             else:
-                ori_keep_indices = torch.linspace(0, q_len-beacon_indices- 1, keep_len).long().to(final_attn_weights.device)
+                ori_keep_indices = torch.linspace(0, q_len-1, keep_len).long().to(final_attn_weights.device)
                 keep_indices = ori_keep_indices
-                long_term_indices = torch.linspace(0, q_len-beacon_indices - 1, long_term_length).long().to(final_attn_weights.device)
+                long_term_indices = torch.linspace(0, q_len-1, long_term_length).long().to(final_attn_weights.device)
                 
-                retrieval_indices = torch.linspace(0, q_len-beacon_indices - 1, retrieval_cal_len).long().to(final_attn_weights.device)
+                retrieval_indices = torch.linspace(0, q_len-1, retrieval_cal_len).long().to(final_attn_weights.device)
             
             
             

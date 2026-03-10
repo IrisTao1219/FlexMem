@@ -13,12 +13,27 @@ This repository implements FlexMem, a novel and training-free visual memory mech
 
 ## 🛠️ Usage
 
-
+### Repository Layout
+```
+FlexmMem
+├── flexmem/                  
+│   ├── modeling_memory/     # Memory Storage and Retrieval 
+│   └── modeling_qwen2/      # Dual-Pathway Compression
+│   └── stream_llava_qwen/   # FlexMem-patched LLaVa-video Inference Pipline 
+├── llava/                   # Evaluation Process
+└── scripts/                 # Assessment Tools
+```
 ### Installation
 ```bash
-conda create -n flexmem python=3.10 
-pip install -r requirements.txt
+Note: We create the flexmem environment by strictly following the official LLaVA-NeXT configuration to ensure full compatibility with the base model and inference engine.
+1. Clone this repository and navigate to the LLaVA folder:
+git clone https://github.com/LLaVA-VL/LLaVA-NeXT
+cd LLaVA-NeXT
+2. Install the inference package:
+conda create -n flexmem python=3.10 -y
 conda activate flexmem
+pip install --upgrade pip 
+pip install -e ".[train]"
 ```
 ### Long Video Benchmark Evaluation
 For **LongVideoBench** evaluation, you can use the following script to evaluate.
