@@ -1,4 +1,6 @@
-# Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism
+# FlexMem: Scaling the Long Video Understanding of MLLMs via Visual Memory Mechanism 
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2603.29252-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.29252)
 
 ## 👣Introduction
 
@@ -18,7 +20,7 @@ This repository implements FlexMem, a novel and training-free visual memory mech
 FlexmMem
 ├── flexmem/                  
 │   ├── modeling_memory/     # Memory Storage and Retrieval 
-│   └── modeling_qwen2/      # Dual-Pathway Compression
+│   ├── modeling_qwen2/      # Dual-Pathway Compression
 │   └── stream_llava_qwen/   # FlexMem-patched LLaVa-video Inference Pipline 
 ├── llava/                   # Evaluation Process
 └── scripts/                 # Assessment Tools
@@ -53,10 +55,20 @@ Then, you can use the following script:
 bash FlexMem-fast/scripts/video/mlvu/mlvu_eval_stream.sh
 ```
 
-## 🙏 Acknowledgements
+## 🤝 Acknowledgements
 
 - **LLaVA-NeXT**: the codebase we used for evaluation.
 - **Video-XL**: the codebase we built upon. 
 
 
+## Citation
+If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:
 
+```BibTeX
+@article{chen2026flexmem,
+  title={Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism},
+  author={Tao Chen and Kun Zhang and Qiong Wu and Xiao Chen and Chao Chang and Xiaoshuai Sun and Yiyi Zhou and Rongrong Ji},
+  journal={arXiv preprint arXiv:2603.29252},
+  year={2026}
+}
+```
