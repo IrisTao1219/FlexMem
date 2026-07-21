@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2603.29252-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.29252)
 
-## 👣Introduction test
+## 👣Introduction
 
 This repository implements FlexMem, a novel and training-free visual memory mechanism for Multimodal Large language Models (MLLMs). FlexMem can help MLLMs continually watch video content and recall the most relevant memory fragments to answer the question.
 
