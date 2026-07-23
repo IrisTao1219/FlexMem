@@ -12,8 +12,8 @@ export python3WARNINGS=ignore
 export TOKENIZERS_PARALLELISM=false
 export PYTHONPATH="$ROOT_DIR:$PYTHONPATH"
 export DECORD_EOF_RETRY_MAX=20480
-CKPT= #Your Model Path
-DATA_ROOT= #Your LongVideoBench Root
+CKPT="/home/taosha/models/Hf_model/LLaVA-Video-7B-Qwen2" #Your Model Path
+DATA_ROOT="/home/taosha/datasets/Datasets/LongVideoBench" #Your LongVideoBench Root
 VIDEO_DIR=${DATA_ROOT}/videos
 GT_FILE=${DATA_ROOT}/lvb_val.json
 CONV_MODE=qwen_1_5
@@ -22,7 +22,7 @@ OVERWRITE=True
 QUESTION_TYPE=multi_choice
 
 EVAL_ONLY=False
-CHUNKS=8
+CHUNKS=2
 FRAMES=99
 CONFIG_PATH=config.yaml
 
@@ -42,13 +42,18 @@ fi
 echo $SAVE_DIR
 
 # Assuming GPULIST is a bash array containing your GPUs
-GPULIST=(0 1 2 3 4 5 6 7)
+GPULIST=(0 1)
 
 # Get the number of GPUs
 NUM_GPUS=${#GPULIST[@]}
 
 # Calculate GPUs per chunk
 GPUS_PER_CHUNK=$((NUM_GPUS / CHUNKS))
+
+echo "CKPT=[$CKPT]"
+echo "DATA_ROOT=[$DATA_ROOT]"
+echo "VIDEO_DIR=[$VIDEO_DIR]"
+echo "GT_FILE=[$GT_FILE]"
 
 if [ "$EVAL_ONLY" == False ]; then
     for IDX in $(seq 1 $CHUNKS); do
