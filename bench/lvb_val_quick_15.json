@@ -1,75 +1,5 @@
 [
   {
-    "video_id": "2F7d7aUCmUU",
-    "question": "In a dense forest, a boy wearing a black short-sleeve shirt is sitting on a bench. When the subtitle mentions 'to positively influence us all that said', what action does the boy take?",
-    "question_wo_referring_query": "What action does the boy take when mentioned?",
-    "candidates": [
-      "Makes a fist",
-      "Waves his hand",
-      "Stands up",
-      "Claps his hands"
-    ],
-    "correct_choice": 1,
-    "position": [16],
-    "topic_category": "LV-Lifestyle-Life-Vlogs",
-    "question_category": "T2E",
-    "level": "L1-Perception",
-    "id": "2F7d7aUCmUU_0",
-    "video_path": "2F7d7aUCmUU.mp4",
-    "subtitle_path": "2F7d7aUCmUU_en.json",
-    "duration_group": 15,
-    "starting_timestamp_for_subtitles": 725,
-    "duration": 7.97,
-    "view_count": 119706
-  },
-  {
-    "video_id": "5Hn1UhlLphk",
-    "question": "In the scene, a woman is standing in the kitchen wearing an apron. Behind her are white cabinets with many items on the counter, including cutting boards, bowls, small appliances, and bottles. Next to her on the counter is a microwave, along with two small bowls and a small bottle. The woman has light brown hair and is wearing a blue outfit. What is the shape of the picture on the wall behind the counter where she is standing?",
-    "question_wo_referring_query": "What is the shape of the picture on the wall behind the counter where she is standing?",
-    "candidates": [
-      "Pentagon",
-      "Square",
-      "Octagon",
-      "Hexagon",
-      "Rectangle"
-    ],
-    "correct_choice": 3,
-    "position": [141],
-    "topic_category": "LC-Lifestyle-Cooking-Recipes",
-    "question_category": "S2A",
-    "level": "L1-Perception",
-    "id": "5Hn1UhlLphk_0",
-    "video_path": "5Hn1UhlLphk.mp4",
-    "subtitle_path": "5Hn1UhlLphk_en.json",
-    "duration_group": 15,
-    "starting_timestamp_for_subtitles": 126,
-    "duration": 7.97,
-    "view_count": 258166
-  },
-  {
-    "video_id": "GZFL58_pXPg",
-    "question": "On the screen, there are many advanced math problems on a piece of white paper. Among the problems, there is also a complete brain diagram. When the subtitle mentions 'an extraordinary brain that lacked the,' what color appears on the right side of the brain diagram?",
-    "question_wo_referring_query": "What color appears on the right side of the brain diagram?",
-    "candidates": [
-      "The left side of the brain diagram is gray with stained patterns.",
-      "The right side of the brain is blue with stains.",
-      "The right side of the brain diagram is gray, resembling stains.",
-      "The left side of the brain is blue with stains."
-    ],
-    "correct_choice": 2,
-    "position": [78],
-    "topic_category": "KH-Knowledge-History",
-    "question_category": "T2A",
-    "level": "L1-Perception",
-    "id": "GZFL58_pXPg_0",
-    "video_path": "GZFL58_pXPg.mp4",
-    "subtitle_path": "GZFL58_pXPg_en.json",
-    "duration_group": 15,
-    "starting_timestamp_for_subtitles": 107,
-    "duration": 7.97,
-    "view_count": 22656
-  },
-  {
     "video_id": "Lf7uW4xK2bc",
     "question": "In the video, there is a bowl on the table containing a white powdery substance. What color is the liquid being dripped into the bowl by the hand on screen?",
     "question_wo_referring_query": "What color is the liquid being dripped into the bowl by the hand on screen?",
@@ -80,7 +10,9 @@
       "red"
     ],
     "correct_choice": 3,
-    "position": [102],
+    "position": [
+      102
+    ],
     "topic_category": "LC-Lifestyle-Cooking-Recipes",
     "question_category": "E2O",
     "level": "L1-Perception",
@@ -93,27 +25,79 @@
     "view_count": 211504
   },
   {
-    "video_id": "u-vYvqxHejY",
-    "question": "In the video, a blonde woman is explaining something while wearing a black coat. When the person speaking mentions 'Oh, and here's a picture of her at the printing press,' there is a shadow of her pointing to an object on the wall. What is the object present in the screen?",
-    "question_wo_referring_query": "What is the object present in the screen?",
+    "video_id": "_kQXNFG664Y",
+    "question": "In a corner of a bedroom, a short-haired woman wearing an olive green tank top is sitting in front of a bed. To the right is a bookshelf filled with books. What color is the bookshelf in the screen?",
+    "question_wo_referring_query": "In a corner of a bedroom, a short-haired woman wearing an olive green tank top is sitting in front of a bed. To the right is a bookshelf filled with books. What color is the bookshelf in the screen?",
     "candidates": [
-      "Tree",
-      "Black and white photo",
-      "Book",
-      "Watercolor painting"
+      "A three-layer pink bookshelf",
+      "A three-layer blue bookshelf",
+      "A four-layer red bookshelf",
+      "A five-layer orange bookshelf"
     ],
-    "correct_choice": 1,
-    "position": [131],
-    "topic_category": "KA-Knowledge-Art",
-    "question_category": "T2O",
+    "correct_choice": 3,
+    "position": [
+      40
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "S2A",
     "level": "L1-Perception",
-    "id": "u-vYvqxHejY_0",
-    "video_path": "u-vYvqxHejY.mp4",
-    "subtitle_path": "u-vYvqxHejY_en.json",
+    "id": "_kQXNFG664Y_0",
+    "video_path": "_kQXNFG664Y.mp4",
+    "subtitle_path": "_kQXNFG664Y_en.json",
     "duration_group": 15,
-    "starting_timestamp_for_subtitles": 75,
-    "duration": 7.97,
-    "view_count": 143935
+    "starting_timestamp_for_subtitles": 678,
+    "duration": 8.0,
+    "view_count": 807323
+  },
+  {
+    "video_id": "JuthlQ2Zo38",
+    "question": "In front of the white curtain, when a woman in a light blue denim jacket with long hair lifts her hand, what is she doing?",
+    "question_wo_referring_query": "What is she doing?",
+    "candidates": [
+      "The woman is holding a white bottle and giving a detailed introduction about it.",
+      "The woman is taking off her earrings.",
+      "The woman is taking off her hair tie from her wrist and tying her hair.",
+      "The woman is taking off her jacket and placing it on the ground."
+    ],
+    "correct_choice": 0,
+    "position": [
+      275
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "JuthlQ2Zo38_0",
+    "video_path": "JuthlQ2Zo38.mp4",
+    "subtitle_path": "JuthlQ2Zo38_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 269,
+    "duration": 13.0,
+    "view_count": 53863
+  },
+  {
+    "video_id": "YvM4rzSxX1U",
+    "question": "In a plaza surrounded by high-walled buildings, many pairs of small figures are scattered around. On the right side of the screen, there is a character wearing a blue hat. To his left, there are two soldiers. What are they doing?",
+    "question_wo_referring_query": "What are they doing?",
+    "candidates": [
+      "The two helmeted soldiers are raising their shields and running forward",
+      "The two soldiers are looking for weapons at hand",
+      "The two soldiers are sparring",
+      "The two soldiers are greeting each other"
+    ],
+    "correct_choice": 0,
+    "position": [
+      179
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "YvM4rzSxX1U_0",
+    "video_path": "YvM4rzSxX1U.mp4",
+    "subtitle_path": "YvM4rzSxX1U_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 127,
+    "duration": 14.0,
+    "view_count": 1947
   },
   {
     "video_id": "-QSAotqKqX8",
@@ -127,7 +111,9 @@
       "3 women"
     ],
     "correct_choice": 3,
-    "position": [88],
+    "position": [
+      88
+    ],
     "topic_category": "KG-Knowledge-Geography",
     "question_category": "O3O",
     "level": "L2-Relation",
@@ -140,49 +126,83 @@
     "view_count": 79518
   },
   {
-    "video_id": "kbRtl58u_kk",
-    "question": "In a dark room, there is a rotating fan hanging. When the screen displays white subtitles saying 'i watch all ur vedeo', what is a short-haired man wearing a green short-sleeved shirt doing?",
-    "question_wo_referring_query": "What is he doing?",
+    "video_id": "UM0VOrAtnPA",
+    "question": "There is a blonde woman sitting on a chair wearing a long skirt and reading a book. Where else has the book she's holding appeared?",
+    "question_wo_referring_query": "Where else has the book she's holding appeared?",
     "candidates": [
-      "He is preparing to change clothes.",
-      "He is preparing to turn off the fan.",
-      "He is touching his own hair.",
-      "He is looking at the electric fan."
+      "On the table",
+      "On the ground",
+      "On the sofa",
+      "On the chair"
     ],
-    "correct_choice": 3,
-    "position": [44],
-    "topic_category": "LT-Lifestyle-Travel-Guides",
-    "question_category": "S2E",
-    "level": "L1-Perception",
-    "id": "kbRtl58u_kk_0",
-    "video_path": "kbRtl58u_kk.mp4",
-    "subtitle_path": "kbRtl58u_kk_en.json",
+    "correct_choice": 0,
+    "position": [
+      38,
+      96
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "SOS",
+    "level": "L2-Relation",
+    "id": "UM0VOrAtnPA_0",
+    "video_path": "UM0VOrAtnPA.mp4",
+    "subtitle_path": "UM0VOrAtnPA_en.json",
     "duration_group": 15,
-    "starting_timestamp_for_subtitles": 431,
-    "duration": 7.98,
-    "view_count": 65625
+    "starting_timestamp_for_subtitles": 115,
+    "duration": 8.01,
+    "view_count": 282345
   },
   {
-    "video_id": "18rZLZqg6C8",
-    "question": "In the video, a woman wearing a white long-sleeve sweater is sitting on a chair with a tree behind her. What movement occurs with her hands after she says 'and we booked this dreamy Cup in in'?",
-    "question_wo_referring_query": "What movement occurs with her hands?",
+    "video_id": "rVGE6xhfVJE",
+    "question": "In a glass tray, there is a ball of meat. A pair of gloved hands is manipulating the ball from above. On the side of the tray, there are some flat pieces of meat. What change happened to the ball of meat in the tray?",
+    "question_wo_referring_query": "In a glass tray, there is a ball of meat. A pair of gloved hands is manipulating the ball from above. On the side of the tray, there are some flat pieces of meat. What change happened to the ball of meat in the tray?",
     "candidates": [
-      "Tightening into a prayer position with both hands",
-      "From raising hands to a prayer position with both hands",
+      "It turned into three meatballs",
       "No change",
-      "From clasping hands to raising hands"
+      "It turned into two meatballs",
+      "It turned into four meatballs"
     ],
     "correct_choice": 2,
-    "position": [71, 86],
-    "topic_category": "LV-Lifestyle-Life-Vlogs",
-    "question_category": "TAA",
+    "position": [
+      54,
+      227
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "SAA",
     "level": "L2-Relation",
-    "id": "18rZLZqg6C8_0",
-    "video_path": "18rZLZqg6C8.mp4",
-    "subtitle_path": "18rZLZqg6C8_en.json",
+    "id": "rVGE6xhfVJE_0",
+    "video_path": "rVGE6xhfVJE.mp4",
+    "subtitle_path": "rVGE6xhfVJE_en.json",
     "duration_group": 15,
-    "starting_timestamp_for_subtitles": 103,
-    "duration": 8.0,
-    "view_count": 45905
+    "starting_timestamp_for_subtitles": 288,
+    "duration": 11.0,
+    "view_count": 141
+  },
+  {
+    "video_id": "@healthfood-7115052132578921774",
+    "question": "Which of the following sequences of events is correct?",
+    "question_wo_referring_query": "Which of the following sequences of events is correct?",
+    "candidates": [
+      "First, pour olive oil into the iron pot, then demonstrate the olive oil in the pot against the background of a white cabinet and wooden countertop, and finally demonstrate the olive oil with dark green packaging and glass bottle.",
+      "First, demonstrate the olive oil in the pot against the background of a white cabinet and wooden countertop, then pour the olive oil into the iron pot, and finally demonstrate the olive oil with dark green packaging and glass bottle.",
+      "First, demonstrate the olive oil with dark green packaging and glass bottle, then pour the olive oil into the iron pot, and finally demonstrate the olive oil in the pot against the background of a white cabinet and wooden countertop.",
+      "First, pour olive oil into the iron pot, then demonstrate the olive oil with dark green packaging and glass bottle, and finally demonstrate the olive oil in the pot against the background of a white cabinet and wooden countertop.",
+      "First, demonstrate the olive oil with dark green packaging and glass bottle, then demonstrate the olive oil in the pot against the background of a white cabinet and wooden countertop, and finally pour the olive oil into the iron pot."
+    ],
+    "correct_choice": 2,
+    "position": [
+      35,
+      86,
+      152
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "SSS",
+    "level": "L2-Relation",
+    "id": "@healthfood-7115052132578921774_0",
+    "video_path": "7115052132578921774.mp4",
+    "subtitle_path": "7115052132578921774_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 8.57,
+    "view_count": 913600
   }
 ]
