@@ -15,14 +15,15 @@ export DECORD_EOF_RETRY_MAX=20480
 CKPT="/home/taosha/models/Hf_model/LLaVA-Video-7B-Qwen2" #Your Model Path
 DATA_ROOT="/home/taosha/datasets/Datasets/LongVideoBench" #Your LongVideoBench Root
 VIDEO_DIR=${DATA_ROOT}/videos
-GT_FILE=${DATA_ROOT}/lvb_val.json
+# GT_FILE=${DATA_ROOT}/lvb_val.json
+GT_FILE="../bench/lvb_val_quick.json"
 CONV_MODE=qwen_1_5
 POOL_STRIDE=2
 OVERWRITE=True
 QUESTION_TYPE=multi_choice
 
 EVAL_ONLY=False
-CHUNKS=2
+
 # FRAMES=99 useless
 CONFIG_PATH=config.yaml
 
@@ -41,8 +42,9 @@ fi
 
 echo $SAVE_DIR
 
+CHUNKS=1
 # Assuming GPULIST is a bash array containing your GPUs
-GPULIST=(0 1)
+GPULIST=(0)
 
 # Get the number of GPUs
 NUM_GPUS=${#GPULIST[@]}
