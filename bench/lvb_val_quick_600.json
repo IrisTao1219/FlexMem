@@ -1,0 +1,212 @@
+[
+  {
+    "video_id": "86CxyhFV9MI",
+    "question": "In the video, which subtitles appear at the same time as the man with black hair, dressed in grey clothes with black sleeves, on stage?",
+    "question_wo_referring_query": "Which subtitles appear at the same time?",
+    "candidates": [
+      "promisc has come to an end, in and run away countless times, i was just scared, i still",
+      "run away countless times, i was just scared, i still and front of our crown, like a world of souls,",
+      "promisc has come to an end, in and front of our crown, like a world of souls,",
+      "promisc has come to an end, in and captain of the godson, three three three three three three"
+    ],
+    "correct_choice": 1,
+    "position": [
+      854,
+      948,
+      1373
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "86CxyhFV9MI_0",
+    "video_path": "86CxyhFV9MI.mp4",
+    "subtitle_path": "86CxyhFV9MI_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 190.16,
+    "view_count": 259852
+  },
+  {
+    "video_id": "9PD3ciudpIE",
+    "question": "In front of an ancient building, a woman walks by holding something. When the subtitle says 'temples scattered throughout the', what color is the woman's clothing at that moment?",
+    "question_wo_referring_query": "In front of an ancient building, a woman walks by holding something. When the subtitle says 'temples scattered throughout the', what color is the woman's clothing at that moment?",
+    "candidates": [
+      "yellow",
+      "green",
+      "blue",
+      "red"
+    ],
+    "correct_choice": 0,
+    "position": [
+      3068
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "9PD3ciudpIE_0",
+    "video_path": "9PD3ciudpIE.mp4",
+    "subtitle_path": "9PD3ciudpIE_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 467.92,
+    "view_count": 4172
+  },
+  {
+    "video_id": "5qMcDQd17Y4",
+    "question": "In the scene, there is a man wearing a white shirt standing in front of a red and white building. When the subtitle mentions 'conference happening about central,' what is behind the man to his right?",
+    "question_wo_referring_query": "What is behind the man to his right?",
+    "candidates": [
+      "cell phone",
+      "car",
+      "computer",
+      "street light"
+    ],
+    "correct_choice": 3,
+    "position": [
+      1290
+    ],
+    "topic_category": "KS-Knowledge-STEM",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "5qMcDQd17Y4_0",
+    "video_path": "5qMcDQd17Y4.mp4",
+    "subtitle_path": "5qMcDQd17Y4_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 584.64,
+    "view_count": 74618
+  },
+  {
+    "video_id": "7F9IrtSHmc0",
+    "question": "In a room with a wall tiger and a map on the wall, there is a man wearing a white shirt. What is he doing?",
+    "question_wo_referring_query": "What is he doing?",
+    "candidates": [
+      "drinking water",
+      "playing with a cell phone",
+      "speaking",
+      "dancing"
+    ],
+    "correct_choice": 2,
+    "position": [
+      305
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "7F9IrtSHmc0_0",
+    "video_path": "7F9IrtSHmc0.mp4",
+    "subtitle_path": "7F9IrtSHmc0_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 422.66,
+    "view_count": 46214
+  },
+  {
+    "video_id": "LB1qPExHQY8",
+    "question": "In the bottom right corner with a black tank in the background, what change occurred to the white word 'Plans' located at the bottom left of the screen when the subtitle said 'upcoming plans next steps are'?",
+    "question_wo_referring_query": "What change occurred?",
+    "candidates": [
+      "The text got bigger",
+      "The text turned black",
+      "The text turned red",
+      "The text got smaller",
+      "The text turned purple"
+    ],
+    "correct_choice": 0,
+    "position": [
+      377,
+      1150
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "LB1qPExHQY8_0",
+    "video_path": "LB1qPExHQY8.mp4",
+    "subtitle_path": "LB1qPExHQY8_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 181.4,
+    "view_count": 5521
+  },
+  {
+    "video_id": "h4jIoMxZopU",
+    "question": "In front of a blue background, a gentleman wearing a shirt with pink floral patterns is speaking. What did the gentleman do after becoming friends with the unicorn?",
+    "question_wo_referring_query": "What did the gentleman do after becoming friends with the unicorn?",
+    "candidates": [
+      "Put on a watch",
+      "Changed into a different shirt",
+      "Put on a mask",
+      "Put on a pair of sunglasses",
+      "Put on a unicorn headpiece"
+    ],
+    "correct_choice": 4,
+    "position": [
+      72,
+      556
+    ],
+    "topic_category": "KS-Knowledge-STEM",
+    "question_category": "E3E",
+    "level": "L2-Relation",
+    "id": "h4jIoMxZopU_0",
+    "video_path": "h4jIoMxZopU.mp4",
+    "subtitle_path": "h4jIoMxZopU_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 538.08,
+    "view_count": 175981
+  },
+  {
+    "video_id": "M7YSCIkUaNw",
+    "question": "On the black table, there is a white tray and bowl. The tray has a dark-colored bottle with a white paper label on it, and the bowl contains a white powder. A hand covered with a sleeve is mixing the contents with a kitchen utensil. After the subtitle 'basic muffin butter mixed with a cup of', what appears on the screen?",
+    "question_wo_referring_query": "What appears on the screen?",
+    "candidates": [
+      "silver kitchen utensils",
+      "white bowl",
+      "red fruit",
+      "butterfly",
+      "white water bottle"
+    ],
+    "correct_choice": 2,
+    "position": [
+      8438,
+      8450,
+      8921
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T3O",
+    "level": "L2-Relation",
+    "id": "M7YSCIkUaNw_0",
+    "video_path": "M7YSCIkUaNw.mp4",
+    "subtitle_path": "M7YSCIkUaNw_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 522.9,
+    "view_count": 23762
+  },
+  {
+    "video_id": "5KLSf7kwr7s",
+    "question": "There is a machine next to the white wall. The machine's inlet has a gradually narrowing conical shape. At the outlet of the machine, there is a green plastic container. The engine of the machine is located on the left side. A person wearing jeans and a blue shirt is operating the machine. Who passes by from the right side of the machine?",
+    "question_wo_referring_query": "Who passes by from the right side of the machine?",
+    "candidates": [
+      "A woman",
+      "A man",
+      "A child",
+      "A cat",
+      "A dog"
+    ],
+    "correct_choice": 4,
+    "position": [
+      7270
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "E2O",
+    "level": "L1-Perception",
+    "id": "5KLSf7kwr7s_0",
+    "video_path": "5KLSf7kwr7s.mp4",
+    "subtitle_path": "5KLSf7kwr7s_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 494.26,
+    "view_count": 145023
+  }
+]
