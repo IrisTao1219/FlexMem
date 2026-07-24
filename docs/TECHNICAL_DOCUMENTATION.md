@@ -41,13 +41,12 @@ FlexMem/
 │   │   ├── modeling_qwen2.py         # 注入视觉压缩逻辑的 Qwen2
 │   │   └── stream_llava_qwen.py      # LLaVA、Qwen2、Memory 的总装与生成入口
 │   ├── llava/
-│   │   ├── eval/model_lvbench_stream.py # FlexMem/Native 共用入口，由 --native 区分
+│   │   ├── eval/model_lvbench_stream.py
 │   │   ├── model/builder.py          # 基础模型、视觉塔和 tokenizer 装载
 │   │   ├── model/llava_arch.py       # 视觉编码、池化、投影及多模态拼接
 │   │   └── ...                       # LLaVA-NeXT 上游基础模块
 │   ├── scripts/video/lvbench/
 │   │   ├── lvbench_eval_stream.sh    # 多 GPU 评测编排
-│   │   ├── lvbench_eval_native.sh    # Native-64 对照组编排
 │   │   └── calculate_score.py        # 按视频时长统计准确率
 │   └── work_dirs/eval_lvbench/       # 仓库内已有的示例评测输出
 └── FlexMem-fast/                     # Fast 版实现
@@ -654,39 +653,7 @@ FlexMem-fast/scripts/video/mlvu/mlvu_eval_stream.sh
 bash FlexMem-fast/scripts/video/mlvu/mlvu_eval_stream.sh
 ```
 
-### 12.4 LongVideoBench Native 对照组
-
-Native 对照组使用原生 `LlavaQwenForCausalLM`，不创建或调用 FlexMem `Memory`。默认均匀采样 64 帧，对应约 `64 × 210 = 13,440` 个视觉 token，与标准版 FlexMem 最终 `16 × 840 = 13,440` 个 Decoding-memory token 的预算近似一致。
-
-Native 脚本与原版 `lvbench_eval_stream.sh` 使用方式一致。先在脚本内设置：
-
-```bash
-CKPT="/path/to/LLaVA-Video-7B-Qwen2"
-DATA_ROOT="/path/to/LongVideoBench"
-CHUNKS=2
-FRAMES=64
-GPULIST=(0 1)
-MAX_NEW_TOKENS=16
-ATTN_IMPLEMENTATION=sdpa
-```
-
-然后从仓库根目录运行：
-
-```bash
-bash FlexMem/scripts/video/lvbench/lvbench_eval_native.sh
-```
-
-脚本会在估算的视觉 token、prompt token 与生成预留总量超过模型上下文长度时终止，防止原生 LLaVA 从右侧静默截断问题文本。
-
-默认结果写入独立目录：
-
-```text
-FlexMem/work_dirs/eval_lvbench_native/<Native实验名>/
-```
-
-原 FlexMem 结果仍位于 `FlexMem/work_dirs/eval_lvbench/`，两组结果不会相互覆盖。
-
-### 12.5 仅重新计分
+### 12.4 仅重新计分
 
 把对应脚本中的 `EVAL_ONLY=True`，并确保 `SAVE_DIR` 能解析到已有结果目录。也可以直接调用：
 

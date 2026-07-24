@@ -111,10 +111,7 @@ def eval_model(args):
     # Model
     disable_torch_init()
     model_path = os.path.expanduser(args.model_path)
-    if args.native:
-        model_name = get_model_name_from_path(model_path)
-    else:
-        model_name = get_model_name_from_path(model_path) + '_stream'
+    model_name = get_model_name_from_path(model_path) + '_stream'
     overwrite_config = {}
     if configs["tokens_per_frame"] == 182:
         overwrite_config["mm_spatial_pool_stride"] = 2
@@ -123,21 +120,9 @@ def eval_model(args):
     overwrite_config["tokens_per_frame"] = configs["tokens_per_frame"]
     overwrite_config["mm_newline_position"] = "grid"
     overwrite_config["delay_load"] = False
-    if args.native:
-        overwrite_config["_attn_implementation"] = args.attn_implementation
-    else:
-        overwrite_config["_attn_implementation"] = 'eager'
+    overwrite_config["_attn_implementation"] = 'eager'
     topk , chunk_size , preblk , preratio , decratio , topb, max_fps = configs["max_num_frames"],configs["chunk_size"],configs["preblk"],configs["preratio"],configs["decratio"],configs["topb"],configs["sample_fps"]
-    if args.native:
-        tokenizer, model, image_processor, context_len = load_pretrained_model(
-            model_path,
-            args.model_base,
-            model_name,
-            overwrite_config=overwrite_config,
-            attn_implementation=args.attn_implementation,
-        )
-    else:
-        tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, args.model_base, model_name, overwrite_config=overwrite_config, attn_implementation="eager" , chunk_size = chunk_size , topb = topb , preblk = preblk , preratio= preratio,decratio = decratio, tokens_per_frame = configs["tokens_per_frame"])
+    tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, args.model_base, model_name, overwrite_config=overwrite_config, attn_implementation="eager" , chunk_size = chunk_size , topb = topb , preblk = preblk , preratio= preratio,decratio = decratio, tokens_per_frame = configs["tokens_per_frame"]) 
     model = model.eval()
 
     # Data
@@ -212,15 +197,10 @@ def eval_model(args):
         fps = vr.get_avg_fps()
         video_time = total_frame_num / fps
 
-        if args.native:
-            nframes = args.num_frames
-            if nframes <= 0:
-                raise ValueError("--num-frames must be a positive integer.")
-        else:
-            fps_sample_frames = int(video_time*max_fps)
-            nframes = min(fps_sample_frames, topk)
-            if nframes % chunk_size != 0:
-                nframes += (chunk_size - nframes % chunk_size)
+        fps_sample_frames = int(video_time*max_fps)
+        nframes = min(fps_sample_frames, topk)
+        if nframes % chunk_size != 0:
+            nframes += (chunk_size - nframes % chunk_size)
         
         uniform_sampled_frames = np.linspace(0, total_frame_num-1, nframes, dtype=int)
 
@@ -241,19 +221,6 @@ def eval_model(args):
         conv.append_message(conv.roles[1], None)
         prompt = conv.get_prompt()
         input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).cuda()
-        if args.native:
-            estimated_context_tokens = (
-                input_ids.shape[1]
-                - 1
-                + nframes * configs["tokens_per_frame"]
-                + args.max_new_tokens
-            )
-            if estimated_context_tokens > context_len:
-                raise RuntimeError(
-                    f"Native context overflow for video {video_id}: estimated "
-                    f"{estimated_context_tokens} tokens exceed context_len={context_len}. "
-                    "Reduce --num-frames."
-                )
         stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
         keywords = [stop_str]
         stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
@@ -262,39 +229,24 @@ def eval_model(args):
 
         if args.generate_method == 'generate_until':
 
-            if args.native:
-                with torch.inference_mode():
-                    output_ids = model.generate(
-                        input_ids,
-                        images=video,
-                        modalities=["video"],
-                        do_sample=False,
-                        temperature=1.0,
-                        top_p=1.0,
-                        top_k=1,
-                        max_new_tokens=args.max_new_tokens,
-                        use_cache=True,
-                        stopping_criteria=[stopping_criteria],
-                    )
-            else:
-                model.memory.reset()
-                with torch.inference_mode():
-                    output_ids = model.generate(
-                        input_ids,
-                        question_ids=question_ids,
-                        is_parallel=False,
-                        qid=qid,
+            model.memory.reset()
+            with torch.inference_mode():
+                output_ids = model.generate(
+                    input_ids,
+                    question_ids=question_ids,
+                    is_parallel=False,
+                    qid=qid,
 
-                        images=video,
-                        modalities= ["video"],
-                        do_sample=False,
-                        temperature=1.0,
-                        top_p=1.0,
-                        top_k=1,
-                        max_new_tokens=1024,
-                        use_cache=True,
-                        stopping_criteria=[stopping_criteria]
-                    )
+                    images=video,
+                    modalities= ["video"], 
+                    do_sample=False,
+                    temperature=1.0,
+                    top_p=1.0,
+                    top_k=1,
+                    max_new_tokens=1024,
+                    use_cache=True,
+                    stopping_criteria=[stopping_criteria]
+                )
 
         
             outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0]
@@ -303,19 +255,11 @@ def eval_model(args):
                 outputs = outputs[:-len(stop_str)]
             outputs = outputs.strip()
 
-            if args.native:
-                if 'assistant\n' in outputs:
-                    outputs = outputs.rsplit('assistant\n', 1)[-1].strip()
-            else:
-                outputs = outputs.split('assistant\n')[1]
+            outputs = outputs.split('assistant\n')[1] 
 
             parsed_pred = parse_multi_choice_response(outputs, ["A", "B", "C", "D", "E"], index2ans)
             sample_set['acc'] = str(parsed_pred == answer_id)   
             sample_set["pred"] = outputs
-            if args.native:
-                sample_set["method"] = "native"
-                sample_set["num_frames"] = nframes
-                sample_set["estimated_visual_tokens"] = nframes * configs["tokens_per_frame"]
 
 
 
@@ -344,10 +288,6 @@ if __name__ == "__main__":
     parser.add_argument("--config_path", type=str, default='flat')
     parser.add_argument("--generate_method", type=str, default='generate_until')
     parser.add_argument("--for_get_frames_num", type=int, default=99)
-    parser.add_argument("--native", action="store_true", help="Use native LLaVA-Qwen inference without FlexMem.")
-    parser.add_argument("--num-frames", type=int, default=64, help="Uniformly sample this many frames in native mode.")
-    parser.add_argument("--max-new-tokens", type=int, default=16, help="Maximum generated tokens in native mode.")
-    parser.add_argument("--attn-implementation", type=str, default="sdpa", choices=["eager", "sdpa", "flash_attention_2"], help="Attention backend used only in native mode.")
     args = parser.parse_args()
 
     eval_model(args)
