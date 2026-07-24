@@ -72,11 +72,11 @@ if [ "$EVAL_ONLY" == False ]; then
             --output_name pred \
             --num-chunks $CHUNKS \
             --chunk-idx $(($IDX - 1)) \
-            # --for_get_frames_num $FRAMES \ useless
             --config_path $CONFIG_PATH \
             --generate_method $GEN_METHOD \
             --conv-mode $CONV_MODE &
     done
+            # --for_get_frames_num $FRAMES \ useless
 
     wait
 fi
