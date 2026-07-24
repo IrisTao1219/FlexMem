@@ -22,7 +22,6 @@ OVERWRITE=True
 QUESTION_TYPE=multi_choice
 
 EVAL_ONLY=False
-CHUNKS=2
 FRAMES=64
 CONFIG_PATH=config.yaml
 ATTN_IMPLEMENTATION=sdpa
@@ -43,8 +42,9 @@ fi
 
 echo $SAVE_DIR
 
+CHUNKS=1
 # Assuming GPULIST is a bash array containing your GPUs
-GPULIST=(0 1)
+GPULIST=(0)
 
 # Get the number of GPUs
 NUM_GPUS=${#GPULIST[@]}
