@@ -167,8 +167,8 @@ def eval_model(args):
             'duration_group': duration_group,
         })
 
-    random.seed(42)
-    random.shuffle(gt_questions)
+    # random.seed(42)
+    # random.shuffle(gt_questions)
     os.makedirs(args.output_dir, exist_ok=True)
     output_name = f"{args.num_chunks}_{args.chunk_idx}" if args.num_chunks > 1 else args.output_name
     answers_file = os.path.join(args.output_dir, f"{output_name}.jsonl")
