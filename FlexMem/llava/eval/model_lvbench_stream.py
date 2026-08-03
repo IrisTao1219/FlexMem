@@ -170,7 +170,11 @@ def eval_model(args):
     # random.seed(42)
     # random.shuffle(gt_questions)
     os.makedirs(args.output_dir, exist_ok=True)
-    output_name = f"{args.num_chunks}_{args.chunk_idx}" if args.num_chunks > 1 else args.output_name
+    output_name = (
+        f"{args.output_name}_{args.num_chunks}_{args.chunk_idx}"
+        if args.num_chunks > 1
+        else args.output_name
+    )
     answers_file = os.path.join(args.output_dir, f"{output_name}.jsonl")
 
     questions = get_chunk(gt_questions, args.num_chunks, args.chunk_idx)

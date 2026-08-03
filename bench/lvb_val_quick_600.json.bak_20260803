@@ -1,0 +1,214 @@
+[
+  {
+    "video_id": "SCZ_Z4NnikA",
+    "question": "On a seaside hill covered with green grass, there is a shining sea in the distance. A white building is constructed on the hill, with a red building at the bottom right corner and a white object as well. What shape is the white building?",
+    "question_wo_referring_query": "What shape is the white building?",
+    "candidates": [
+      "cylindrical",
+      "rectangular",
+      "square",
+      "irregular",
+      "stepped"
+    ],
+    "correct_choice": 0,
+    "position": [
+      11247
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "S2A",
+    "level": "L1-Perception",
+    "id": "SCZ_Z4NnikA_0",
+    "video_path": "SCZ_Z4NnikA.mp4",
+    "subtitle_path": "SCZ_Z4NnikA_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 589.36,
+    "view_count": 12509
+  },
+  {
+    "video_id": "VL259eBJ68w",
+    "question": "In the video, a black-haired woman wearing a black strappy dress and a man with dark skin in a black chef's uniform are in a kitchen. The cabinets behind them are white, and the windows have white curtains. On either side of the windows are wooden shelves holding some items. In front of them is a large wooden table. The woman has her arms crossed and is smiling slightly, while the man is holding a semi-circular lid. What are they doing in the kitchen?",
+    "question_wo_referring_query": "In the video, a black-haired woman wearing a black strappy dress and a man with dark skin in a black chef's uniform are in a kitchen. The cabinets behind them are white, and the windows have white curtains. On either side of the windows are wooden shelves holding some items. In front of them is a large wooden table. The woman has her arms crossed and is smiling slightly, while the man is holding a semi-circular lid. What are they doing in the kitchen?",
+    "candidates": [
+      "The man lifts the lid in his hand",
+      "The man flips the lid in his hand",
+      "The woman opens the lid in the man's hand",
+      "The man drops the lid in his hand",
+      "The man and woman are shaking hands"
+    ],
+    "correct_choice": 0,
+    "position": [
+      1739
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "VL259eBJ68w_0",
+    "video_path": "VL259eBJ68w.mp4",
+    "subtitle_path": "VL259eBJ68w_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 550.62,
+    "view_count": 566917
+  },
+  {
+    "video_id": "qjY9kmveQAk",
+    "question": "On a train, a person wearing a green military uniform and a green face mask is making a phone call. What other items appear on this train?",
+    "question_wo_referring_query": "What other items appear on this train?",
+    "candidates": [
+      "Biscuit",
+      "Flower",
+      "Gun",
+      "Piano"
+    ],
+    "correct_choice": 2,
+    "position": [
+      647
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "S2O",
+    "level": "L1-Perception",
+    "id": "qjY9kmveQAk_0",
+    "video_path": "qjY9kmveQAk.mp4",
+    "subtitle_path": "qjY9kmveQAk_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 589.89,
+    "view_count": 545005
+  },
+  {
+    "video_id": "zkmoxOKhpvk",
+    "question": "The bridge with green railings is halfway in the air. Dense green forests are beside the bridge. The sunshine casts the railings' reflections. Who crossed this bridge?",
+    "question_wo_referring_query": "Who crossed this bridge?",
+    "candidates": [
+      "The woman wearing a black corset",
+      "The curly-haired man wearing a green cat pattern onesie",
+      "The curly-haired man wearing a pink dog pattern onesie",
+      "The man wearing a black baseball cap",
+      "The curly-haired man wearing a pink cat pattern onesie"
+    ],
+    "correct_choice": 4,
+    "position": [
+      654
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "E2O",
+    "level": "L1-Perception",
+    "id": "zkmoxOKhpvk_0",
+    "video_path": "zkmoxOKhpvk.mp4",
+    "subtitle_path": "zkmoxOKhpvk_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 541.0,
+    "view_count": 21577
+  },
+  {
+    "video_id": "eJr-y6UXnRE",
+    "question": "What is the color of the first piece of clothing shown in the video?",
+    "question_wo_referring_query": "What is the color of the first piece of clothing shown in the video?",
+    "candidates": [
+      "white",
+      "purple",
+      "red",
+      "olive",
+      "black"
+    ],
+    "correct_choice": 4,
+    "position": [
+      125,
+      315
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "eJr-y6UXnRE_0",
+    "video_path": "eJr-y6UXnRE.mp4",
+    "subtitle_path": "eJr-y6UXnRE_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 592.56,
+    "view_count": 47581
+  },
+  {
+    "video_id": "lCvQtGVhUrc",
+    "question": "The background shows a wall covered with numerous postcards and posters, with a bookshelf full of books on the right side. A bespectacled woman named Qiliu Hai is holding a book titled 'Beautiful Boy'. The cover of the book features a black-and-white photo of two men. When the camera zooms in on the woman who is hiding half of her face with the book, what changes occur to the book?",
+    "question_wo_referring_query": "What changes occur to the book?",
+    "candidates": [
+      "The book changes from being in the woman's hand to being on the table",
+      "The book changes from a black-and-white cover to a colored cover",
+      "The book changes from a full shot to a close-up",
+      "The book changes from brand new to damaged",
+      "The book changes from closed to open"
+    ],
+    "correct_choice": 2,
+    "position": [
+      5386,
+      5506
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "SAA",
+    "level": "L2-Relation",
+    "id": "lCvQtGVhUrc_0",
+    "video_path": "lCvQtGVhUrc.mp4",
+    "subtitle_path": "lCvQtGVhUrc_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 513.96,
+    "view_count": 160689
+  },
+  {
+    "video_id": "bUaFXONIXzM",
+    "question": "In a foam paper cup containing three drinks, one of the drinks has a raised milk cap in a creamy yellow color. Where else has this drink appeared?",
+    "question_wo_referring_query": "In a foam paper cup containing three drinks, one of the drinks has a raised milk cap in a creamy yellow color. Where else has this drink appeared?",
+    "candidates": [
+      "In the kitchen",
+      "In the fridge",
+      "In an amusement park",
+      "In the hand of a woman without a ring holding a green straw",
+      "In a Starbucks store"
+    ],
+    "correct_choice": 3,
+    "position": [
+      3042,
+      4962
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "SOS",
+    "level": "L2-Relation",
+    "id": "bUaFXONIXzM_0",
+    "video_path": "bUaFXONIXzM.mp4",
+    "subtitle_path": "bUaFXONIXzM_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 526.48,
+    "view_count": 30848
+  },
+  {
+    "video_id": "pFtKaT3GF9I",
+    "question": "Which of the following sequence of scenes is correct?",
+    "question_wo_referring_query": "Which of the following sequence of scenes is correct?",
+    "candidates": [
+      "First, a picture with the flag of Iraq is shown, followed by a picture of a man in green clothes and a man in white clothes with a black background in the upper right corner, and lastly a man discussing a picture with a sheep and a desert is shown.",
+      "First, a picture of a man in green clothes and a man in white clothes with a black background in the upper right corner is shown, followed by a picture with the flag of Iraq, and lastly a man discussing a picture with a sheep and a desert is shown.",
+      "First, a man discussing a picture with a sheep and a desert is shown, followed by a picture with the flag of Iraq, and lastly a picture of a man in green clothes and a man in white clothes with a black background in the upper right corner is shown.",
+      "First, a man discussing a picture with a sheep and a desert is shown, followed by a picture of a man in green clothes and a man in white clothes with a black background in the upper right corner, and lastly a picture with the flag of Iraq is shown.",
+      "First, a picture of a man in green clothes and a man in white clothes with a black background in the upper right corner is shown, followed by a man discussing a picture with a sheep and a desert, and lastly a picture with the flag of Iraq is shown."
+    ],
+    "correct_choice": 2,
+    "position": [
+      483,
+      1188,
+      1510
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "SSS",
+    "level": "L2-Relation",
+    "id": "pFtKaT3GF9I_0",
+    "video_path": "pFtKaT3GF9I.mp4",
+    "subtitle_path": "pFtKaT3GF9I_en.json",
+    "duration_group": 600,
+    "starting_timestamp_for_subtitles": 0,
+    "duration": 524.83,
+    "view_count": 233479
+  }
+]

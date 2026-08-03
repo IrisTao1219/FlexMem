@@ -17,6 +17,9 @@ DATA_ROOT="/home/taosha/datasets/Datasets/LongVideoBench" #Your LongVideoBench R
 VIDEO_DIR=${DATA_ROOT}/videos
 # GT_FILE=${DATA_ROOT}/lvb_val.json
 GT_FILE="../bench/lvb_val_quick_600.json"
+DURATION_GROUP=$(basename "$GT_FILE" | sed -E 's/.*_([0-9]+)\.json/\1/')
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+OUTPUT_NAME="pred_${DURATION_GROUP}_${TIMESTAMP}"
 CONV_MODE=qwen_1_5
 POOL_STRIDE=2
 OVERWRITE=True
@@ -44,7 +47,7 @@ echo $SAVE_DIR
 
 CHUNKS=1
 # Assuming GPULIST is a bash array containing your GPUs
-GPULIST=(0)
+GPULIST=(1)
 
 # Get the number of GPUs
 NUM_GPUS=${#GPULIST[@]}
@@ -69,7 +72,7 @@ if [ "$EVAL_ONLY" == False ]; then
             --video_dir $VIDEO_DIR \
             --gt_file $GT_FILE \
             --output_dir ./work_dirs/eval_lvbench/$SAVE_DIR \
-            --output_name pred \
+            --output_name "$OUTPUT_NAME" \
             --num-chunks $CHUNKS \
             --chunk-idx $(($IDX - 1)) \
             --config_path $CONFIG_PATH \
