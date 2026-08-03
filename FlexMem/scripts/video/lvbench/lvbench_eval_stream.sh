@@ -47,7 +47,7 @@ echo $SAVE_DIR
 
 CHUNKS=1
 # Assuming GPULIST is a bash array containing your GPUs
-GPULIST=(1)
+GPULIST=(0)
 
 # Get the number of GPUs
 NUM_GPUS=${#GPULIST[@]}

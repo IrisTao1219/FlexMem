@@ -12,8 +12,8 @@ export python3WARNINGS=ignore
 export TOKENIZERS_PARALLELISM=false
 export PYTHONPATH="$ROOT_DIR:$PYTHONPATH"
 export DECORD_EOF_RETRY_MAX=20480
-CKPT="/home/taosha/models/Hf_model/LLaVA-Video-7B-Qwen2" #Your Model Path
-DATA_ROOT="/home/taosha/datasets/Datasets/LongVideoBench" #Your LongVideoBench Root
+CKPT="/home/taosha/models/LLaVA-Video-7B-Qwen2" #Your Model Path
+DATA_ROOT="/home/taosha/datasets/LongVideoBench" #Your LongVideoBench Root
 VIDEO_DIR=${DATA_ROOT}/videos
 # GT_FILE=${DATA_ROOT}/lvb_val.json
 GT_FILE="../bench/lvb_val_quick_600.json"
@@ -48,7 +48,7 @@ echo $SAVE_DIR
 
 CHUNKS=1
 # Assuming GPULIST is a bash array containing your GPUs
-GPULIST=(1)
+GPULIST=(0)
 
 # Get the number of GPUs
 NUM_GPUS=${#GPULIST[@]}
