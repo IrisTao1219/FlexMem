@@ -87,4 +87,5 @@ fi
 python3 ./scripts/video/lvbench/calculate_score.py \
     --output_dir ./work_dirs/eval_lvbench/$SAVE_DIR \
     --eval_type $QUESTION_TYPE \
-    --num-chunks $CHUNKS
+    --num-chunks $CHUNKS \
+    --output-name "$OUTPUT_NAME"
