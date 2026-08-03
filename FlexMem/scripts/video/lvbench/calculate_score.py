@@ -13,6 +13,11 @@ def parse_args():
     parser.add_argument("--output_dir", default=r'', help="The path to save annotation json files.")
     parser.add_argument("--eval_type", default="multi_choice", help="The path to save annotation final combined json file.")
     parser.add_argument("--num-chunks", type=int, default=1)
+    parser.add_argument(
+        "--output-name",
+        default=None,
+        help="Only score the result file(s) generated with this output name.",
+    )
     args = parser.parse_args()
     return args
 
@@ -27,9 +32,19 @@ def main():
     # wups, multi_choice
     pred_type=args.eval_type
     ori_dir = args.output_dir
-    files = glob(ori_dir + f'/{args.num_chunks}_*')
+    if args.output_name:
+        if args.num_chunks > 1:
+            files = glob(ori_dir + f'/{args.output_name}_{args.num_chunks}_*.jsonl')
+        else:
+            files = glob(ori_dir + f'/{args.output_name}.jsonl')
+    else:
+        files = glob(ori_dir + f'/{args.num_chunks}_*')
+        if len(files) == 0:
+            files = glob(ori_dir + f'/*')
     if len(files) == 0:
-        files = glob(ori_dir + f'/*')
+        raise FileNotFoundError(
+            f"No result files found in {ori_dir!r} for output name {args.output_name!r}."
+        )
     # files = glob(ori_dir + f'/res.json')
     print(files)
     
