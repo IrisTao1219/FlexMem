@@ -204,5 +204,2383 @@
     "starting_timestamp_for_subtitles": 0,
     "duration": 8.57,
     "view_count": 913600
+  },
+  {
+    "video_id": "oCXKARwr6PA",
+    "question": "In an image of a young girl with a yellow background, wearing a headscarf, accompanied by feathers and some simple ornaments, which objects have never appeared?",
+    "question_wo_referring_query": "Which objects have never appeared?",
+    "candidates": [
+      "Yellow headscarf",
+      "Pearl earrings",
+      "Blue gemstone earrings",
+      "Blue gemstones",
+      "Peacock feathers"
+    ],
+    "correct_choice": 2,
+    "position": [
+      19
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "S2O",
+    "level": "L1-Perception",
+    "id": "oCXKARwr6PA_0",
+    "video_path": "oCXKARwr6PA.mp4",
+    "subtitle_path": "oCXKARwr6PA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 120,
+    "duration": 12.0,
+    "view_count": 174923
+  },
+  {
+    "video_id": "IuVyCbtGBFQ",
+    "question": "The blue sky is filled with many clouds, beneath the clouds lies a mountain ridge resembling a centipede, below the mountain ridge there are green plants and an endless expanse of seawater. A man stands sideways in front of the water. When the subtitle 'This island itself resembles a harbor' appears, what is present in the video frame?",
+    "question_wo_referring_query": "What is present in the video frame when the subtitle appears?",
+    "candidates": [
+      "White sailor cap",
+      "Red short sleeve shirt",
+      "Black sunglasses",
+      "A ferry",
+      "Sailboat"
+    ],
+    "correct_choice": 2,
+    "position": [
+      192
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "IuVyCbtGBFQ_0",
+    "video_path": "IuVyCbtGBFQ.mp4",
+    "subtitle_path": "IuVyCbtGBFQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 386,
+    "duration": 14.02,
+    "view_count": 9840
+  },
+  {
+    "video_id": "-if_Wg43vTk",
+    "question": "After the oil in the blue iron pot is heated, what was done with the glass bowl containing marinated meat that was picked up with both hands?",
+    "question_wo_referring_query": "After the oil in the blue iron pot is heated, what was done with the glass bowl containing marinated meat that was picked up with both hands?",
+    "candidates": [
+      "Poured the oil from the pot into the glass bowl.",
+      "Added a pinch of fermented bean curd.",
+      "Added white seasoning oil.",
+      "The marinated meat was poured into the pot.",
+      "Poured chili peppers into the pot."
+    ],
+    "correct_choice": 3,
+    "position": [
+      27
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "-if_Wg43vTk_0",
+    "video_path": "-if_Wg43vTk.mp4",
+    "subtitle_path": "-if_Wg43vTk_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 142,
+    "duration": 8.97,
+    "view_count": 220825
+  },
+  {
+    "video_id": "kFHVBCEwC3w",
+    "question": "When sunlight shines on the building wall, an exterior green sign on a Roman building, and some passersby are standing by the poles, which object appears first after the video screen reaches this moment?",
+    "question_wo_referring_query": "Which object appears first after the video screen reaches this moment?",
+    "candidates": [
+      "A man wearing a gray shirt, round glasses, and a baseball cap",
+      "A man wearing a green short-sleeved shirt and having a plump physique",
+      "A row of arch-shaped doors",
+      "A woman wearing a floral short-sleeved shirt and carrying a white single-shoulder bag",
+      "A golden yellow circular dome"
+    ],
+    "correct_choice": 4,
+    "position": [
+      33,
+      71,
+      110,
+      246
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "kFHVBCEwC3w_0",
+    "video_path": "kFHVBCEwC3w.mp4",
+    "subtitle_path": "kFHVBCEwC3w_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 839,
+    "duration": 13.0,
+    "view_count": 39387
+  },
+  {
+    "video_id": "WHxBO7XecSY",
+    "question": "Which of the following video sequences is correct?",
+    "question_wo_referring_query": "Which of the following video sequences is correct?",
+    "candidates": [
+      "First, a computer webpage with a picture of a mobile phone card, then a man wearing a black short-sleeve sitting in an office talks to the camera, and finally, a hand wearing a silver ring is using a mobile phone.",
+      "First, a man wearing a black short-sleeve sitting in an office talks to the camera, then a hand wearing a silver ring is using a mobile phone, and finally, a computer webpage with a picture of a mobile phone card.",
+      "First, a man wearing a black short-sleeve sitting in an office talks to the camera, then a computer webpage with a picture of a mobile phone card, and finally, a hand wearing a silver ring is using a mobile phone.",
+      "First, a hand wearing a silver ring is using a mobile phone, then a computer webpage with a picture of a mobile phone card, and finally, a man wearing a black short-sleeve sitting in an office talks to the camera.",
+      "First, a hand wearing a silver ring is using a mobile phone, then a man wearing a black short-sleeve sitting in an office talks to the camera, and finally, a computer webpage with a picture of a mobile phone card."
+    ],
+    "correct_choice": 4,
+    "position": [
+      35,
+      90,
+      162
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "SSS",
+    "level": "L2-Relation",
+    "id": "WHxBO7XecSY_0",
+    "video_path": "WHxBO7XecSY.mp4",
+    "subtitle_path": "WHxBO7XecSY_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 312,
+    "duration": 12.01,
+    "view_count": 170797
+  },
+  {
+    "video_id": "alEV01SMFNk",
+    "question": "What is the woman, wearing a plaid short-sleeve shirt and dark green apron, sitting in front of the kitchen table, preparing to do with a bucket of rice wine in her hand?",
+    "question_wo_referring_query": "What is she preparing to do?",
+    "candidates": [
+      "This woman is preparing to drink it",
+      "Preparing to pour it out and discard it",
+      "Preparing to pour it into a pot to cook",
+      "Preparing to pour it into a glass container and mix it",
+      "Preparing to spread it on dumplings"
+    ],
+    "correct_choice": 3,
+    "position": [
+      65
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "alEV01SMFNk_0",
+    "video_path": "alEV01SMFNk.mp4",
+    "subtitle_path": "alEV01SMFNk_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 155,
+    "duration": 11.01,
+    "view_count": 410054
+  },
+  {
+    "video_id": "FoeeEQ0VVFE",
+    "question": "When a soldier, crouching and using a gun mechanism, and wearing a camouflage helmet is in combat with the enemy, what object appears on the screen?",
+    "question_wo_referring_query": "When a soldier, crouching and using a gun mechanism, and wearing a camouflage helmet is in combat with the enemy, what object appears on the screen?",
+    "candidates": [
+      "Bur",
+      "Grenade",
+      "Handgun",
+      "Sword",
+      "Rifle"
+    ],
+    "correct_choice": 0,
+    "position": [
+      72
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "S2O",
+    "level": "L1-Perception",
+    "id": "FoeeEQ0VVFE_0",
+    "video_path": "FoeeEQ0VVFE.mp4",
+    "subtitle_path": "FoeeEQ0VVFE_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 20,
+    "duration": 11.0,
+    "view_count": 4749088
+  },
+  {
+    "video_id": "GHScTyR2OgQ",
+    "question": "On a red table, there is a transparent bowl, and a pair of hands wearing black gloves appear. What did the hands wearing black gloves do the first time they appeared?",
+    "question_wo_referring_query": "What did the hands wearing black gloves do the first time they appeared?",
+    "candidates": [
+      "Picked up a whisk to stir cream",
+      "Picked up a whisk to press olive oil",
+      "Picked up a whisk to beat eggs",
+      "Picked up a whisk to press tofu",
+      "Picked up a whisk to mix batter"
+    ],
+    "correct_choice": 3,
+    "position": [
+      1
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "GHScTyR2OgQ_0",
+    "video_path": "GHScTyR2OgQ.mp4",
+    "subtitle_path": "GHScTyR2OgQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 68,
+    "duration": 9.0,
+    "view_count": 4190
+  },
+  {
+    "video_id": "mHARxee4EzQ",
+    "question": "A man wearing glasses, puffing on a cigarette, dressed in a grey long-sleeve shirt with rolled-up sleeves, and holding a handful of red feed is feeding a fish with a big mouth. In which of the following places did he appear?",
+    "question_wo_referring_query": "In which of the following places did he appear?",
+    "candidates": [
+      "On a boat being blown by the wind",
+      "In a crowded talent show venue",
+      "On a flying airplane",
+      "In a quiet park",
+      "In a boxing ring"
+    ],
+    "correct_choice": 0,
+    "position": [
+      246,
+      293
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "SOS",
+    "level": "L2-Relation",
+    "id": "mHARxee4EzQ_0",
+    "video_path": "mHARxee4EzQ.mp4",
+    "subtitle_path": "mHARxee4EzQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 25,
+    "duration": 13.01,
+    "view_count": 427738
+  },
+  {
+    "video_id": "_hODR1cR9lo",
+    "question": "In a white room, there is a woman with yellow hair, wearing a brown coat, a pair of necklaces, and glasses. With which of the following subtitles did she appear together?",
+    "question_wo_referring_query": "With which of the following subtitles did she appear together?",
+    "candidates": [
+      "\"I like to wear it when I sleep\"",
+      "\"which i am wearing right now and i have\"",
+      "\"This style is particularly comfortable to wear\"",
+      "\"There are a lot of people who like to wear this\"",
+      "\"I really like this style\""
+    ],
+    "correct_choice": 1,
+    "position": [
+      37,
+      94,
+      138,
+      180,
+      236,
+      301
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "_hODR1cR9lo_0",
+    "video_path": "_hODR1cR9lo.mp4",
+    "subtitle_path": "_hODR1cR9lo_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 76,
+    "duration": 13.01,
+    "view_count": 193094
+  },
+  {
+    "video_id": "8wbNEJjBa0k",
+    "question": "When a man with short hair, who is wearing a red tight shirt, appears next to a woman with long golden hair, who is wearing a tight outfit, in front of a solid black background, what changes in him?",
+    "question_wo_referring_query": "What changes in him?",
+    "candidates": [
+      "Both hands change from being clasped in front of the abdomen to having palms up, pointing to the left",
+      "The left hand changes from touching the forehead to touching the nose",
+      "Both hands change from arms placed in front and behind to being clasped together",
+      "Both hands change from one hand clenched into a fist to both hands clenched into fists",
+      "Both hands change from being clasped in front of the abdomen to having palms up, pointing to the right"
+    ],
+    "correct_choice": 4,
+    "position": [
+      130,
+      276
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "SAA",
+    "level": "L2-Relation",
+    "id": "8wbNEJjBa0k_0",
+    "video_path": "8wbNEJjBa0k.mp4",
+    "subtitle_path": "8wbNEJjBa0k_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 644,
+    "duration": 13.01,
+    "view_count": 1005384
+  },
+  {
+    "video_id": "g7zuBUMBr2E",
+    "question": "In a space constructed with lines, featuring various colors, what objects are present when the subtitle 'they hear a mix of different sounds' appears?",
+    "question_wo_referring_query": "What objects are present in the space?",
+    "candidates": [
+      "A man with hands down, looking up",
+      "A woman with dark skin",
+      "A woman with tied hair, wearing a patterned shawl",
+      "A woman wearing a colorful headscarf",
+      "A man raising both hands with palms facing outward"
+    ],
+    "correct_choice": 4,
+    "position": [
+      150
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "g7zuBUMBr2E_0",
+    "video_path": "g7zuBUMBr2E.mp4",
+    "subtitle_path": "g7zuBUMBr2E_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 180,
+    "duration": 13.01,
+    "view_count": 4136
+  },
+  {
+    "video_id": "fySqsm5kNl4",
+    "question": "In a bright sunny outdoor setting, there is a hole in the ground. When a man wearing a black short-sleeve shirt and a hat appears in front of the hole for the first time, holding a wooden stick, what does he do?",
+    "question_wo_referring_query": "What does he do?",
+    "candidates": [
+      "He kneels down.",
+      "He jumps into the hole.",
+      "He throws the wooden stick into the hole.",
+      "He steps over the hole.",
+      "He throws the wooden stick outside the hole."
+    ],
+    "correct_choice": 2,
+    "position": [
+      300
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "fySqsm5kNl4_0",
+    "video_path": "fySqsm5kNl4.mp4",
+    "subtitle_path": "fySqsm5kNl4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 561,
+    "duration": 14.0,
+    "view_count": 1798483
+  },
+  {
+    "video_id": "pJuq8D1NGJQ",
+    "question": "According to the video, which of the following scenes appears first?",
+    "question_wo_referring_query": "According to the video, which of the following scenes appears first?",
+    "candidates": [
+      "A green field under a blue sky with several red-walled, black-roofed buildings",
+      "A construction vehicle lifting timber",
+      "A truck driving on the road",
+      "A vast wilderness with a huge pit",
+      "A grassy area with a lakeside and a row of trees separating the grass from the lake"
+    ],
+    "correct_choice": 4,
+    "position": [
+      1,
+      22,
+      90
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "pJuq8D1NGJQ_0",
+    "video_path": "pJuq8D1NGJQ.mp4",
+    "subtitle_path": "pJuq8D1NGJQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 608,
+    "duration": 8.01,
+    "view_count": 1560829
+  },
+  {
+    "video_id": "QUtk5xEw1mQ",
+    "question": "At the beginning of the video, there is a man with greyish-white hair and a beard in front of a light purple background. He is wearing glasses and a brown coat. With which subtitles did this man appear?",
+    "question_wo_referring_query": "With which subtitles did this man appear?",
+    "candidates": [
+      "the price of man",
+      "helpless but why they are forced to pay",
+      "music",
+      "happyless but why they are forced to pay",
+      "helpful but why they are forced to pay"
+    ],
+    "correct_choice": 1,
+    "position": [
+      22,
+      75,
+      141
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "QUtk5xEw1mQ_0",
+    "video_path": "QUtk5xEw1mQ.mp4",
+    "subtitle_path": "QUtk5xEw1mQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 69,
+    "duration": 8.01,
+    "view_count": 2100
+  },
+  {
+    "video_id": "cceTeD4JADU",
+    "question": "In the video, there is a woman with blue hair wearing blue clothes. How many times did she look at the computer in total?",
+    "question_wo_referring_query": "How many times did she look at the computer in total?",
+    "candidates": [
+      "2",
+      "5",
+      "1",
+      "4",
+      "3"
+    ],
+    "correct_choice": 2,
+    "position": [
+      171
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "cceTeD4JADU_0",
+    "video_path": "cceTeD4JADU.mp4",
+    "subtitle_path": "cceTeD4JADU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 90,
+    "duration": 9.98,
+    "view_count": 1112608
+  },
+  {
+    "video_id": "LKQK0lud4fo",
+    "question": "There is a man, a woman, and a child on the screen. In the top-left corner, there is a yellow 'US' symbol. A red arrow is pointing to the little girl. What is the little girl doing?",
+    "question_wo_referring_query": "What is the little girl doing?",
+    "candidates": [
+      "Closing her eyes",
+      "Dancing",
+      "Running forward",
+      "Crying with her head in her hands",
+      "Opening her mouth to breathe"
+    ],
+    "correct_choice": 4,
+    "position": [
+      218
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "LKQK0lud4fo_0",
+    "video_path": "LKQK0lud4fo.mp4",
+    "subtitle_path": "LKQK0lud4fo_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 32,
+    "duration": 9.97,
+    "view_count": 943249
+  },
+  {
+    "video_id": "anrKq6HgPvs",
+    "question": "A pair of hands holds a fresh yellow egg and places it on top of a cup with black spotted designs. When the subtitle says 'when the weather is dark and gloomy', what changes occur to the egg?",
+    "question_wo_referring_query": "What changes occur to the egg?",
+    "candidates": [
+      "The eggshell turns white.",
+      "The eggshell shatters into small fragments.",
+      "The eggshell splits into two halves from an intact oval shape.",
+      "The eggshell does not change.",
+      "The eggshell turns red."
+    ],
+    "correct_choice": 2,
+    "position": [
+      214,
+      235
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "anrKq6HgPvs_0",
+    "video_path": "anrKq6HgPvs.mp4",
+    "subtitle_path": "anrKq6HgPvs_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 200,
+    "duration": 10.0,
+    "view_count": 11187
+  },
+  {
+    "video_id": "5Ugjg2ru5QQ",
+    "question": "On the left stands a man with sparse hair and a long beard, on the right stands a man with thick hair tied in a braid. When the subtitle 'organism 4 has apple special' appears, what action is the man with thick hair tied in a braid on the right doing?",
+    "question_wo_referring_query": "What action is the man with thick hair tied in a braid on the right doing?",
+    "candidates": [
+      "Both fists clenched",
+      "Both hands with fingers interlaced",
+      "Both hands placed on either side of his legs",
+      "Both hands with palms facing each other",
+      "One hand pointing to the car behind"
+    ],
+    "correct_choice": 3,
+    "position": [
+      158
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "5Ugjg2ru5QQ_0",
+    "video_path": "5Ugjg2ru5QQ.mp4",
+    "subtitle_path": "5Ugjg2ru5QQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 542,
+    "duration": 11.0,
+    "view_count": 146512
+  },
+  {
+    "video_id": "14ot4DrXdds",
+    "question": "Under the golden twilight, with industrial zones emitting exhaust fumes into the sky, what happened first after the subtitle 'the water while increased levels of' appeared?",
+    "question_wo_referring_query": "What happened first?",
+    "candidates": [
+      "Two molecular structures appeared simultaneously on the screen",
+      "A structure with a black center labeled CO₂, flanked by two red molecular structures, rotated and popped up on the right side of the screen",
+      "Three molecular structures appeared simultaneously on the screen",
+      "A structure with a black center labeled CO₂, flanked by two red molecular structures, rotated and popped up on the left side of the screen",
+      "A structure with a red center labeled CO₂, flanked by two black molecular structures, rotated and popped up on the left side of the screen"
+    ],
+    "correct_choice": 3,
+    "position": [
+      20,
+      58
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "T3E",
+    "level": "L2-Relation",
+    "id": "14ot4DrXdds_0",
+    "video_path": "14ot4DrXdds.mp4",
+    "subtitle_path": "14ot4DrXdds_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 319,
+    "duration": 8.01,
+    "view_count": 131811
+  },
+  {
+    "video_id": "aqGQw1bXFN4",
+    "question": "At the beginning of the scene, in front of two buildings with triangular roofs and red beams, there is a small figure dressed in grey, holding a quill and writing on a scroll. Which subtitles appear alongside this scene?",
+    "question_wo_referring_query": "Which subtitles appear alongside this scene?",
+    "candidates": [
+      "I will not let this law go through",
+      "Nevertheless",
+      "in spite of",
+      "What are you doing",
+      "were also the source of the tribunes' power. Any Tribune could intercede on"
+    ],
+    "correct_choice": 4,
+    "position": [
+      110,
+      288
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "aqGQw1bXFN4_0",
+    "video_path": "aqGQw1bXFN4.mp4",
+    "subtitle_path": "aqGQw1bXFN4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 172,
+    "duration": 12.0,
+    "view_count": 16224
+  },
+  {
+    "video_id": "bgklOaBBmB8",
+    "question": "On the brown wooden table, there is a transparent bowl filled with meat and broth. A pair of hands on either side of the bowl lifts it up. After lifting the bowl, what transition occurs in the scene?",
+    "question_wo_referring_query": ", what transition occurs in the scene?",
+    "candidates": [
+      "From the floor to the microwave",
+      "From the table to the floor",
+      "From the table to the microwave",
+      "From the table to the chair",
+      "From the table to outside"
+    ],
+    "correct_choice": 2,
+    "position": [
+      18,
+      51
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "bgklOaBBmB8_0",
+    "video_path": "bgklOaBBmB8.mp4",
+    "subtitle_path": "bgklOaBBmB8_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 298,
+    "duration": 11.98,
+    "view_count": 3687
+  },
+  {
+    "video_id": "FH1L2Dq6964",
+    "question": "When 'make a marshmallow cereal treat and' is mentioned, there's a yellow pot on a gas stove in the kitchen, and on the counter, there are eggs and milk. A woman with blue hair, what is she doing?",
+    "question_wo_referring_query": "what is she doing?",
+    "candidates": [
+      "She is not holding anything in her hands.",
+      "She is holding a rectangular container full of colorful ingredients in one hand and oats in the other.",
+      "She is holding an egg in her hand.",
+      "She is holding an egg in one hand and milk in the other."
+    ],
+    "correct_choice": 1,
+    "position": [
+      57
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "FH1L2Dq6964_0",
+    "video_path": "FH1L2Dq6964.mp4",
+    "subtitle_path": "FH1L2Dq6964_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 172,
+    "duration": 8.01,
+    "view_count": 127447
+  },
+  {
+    "video_id": "npLd4WTSQsM",
+    "question": "On this yellow cutting board, two chicken breasts are placed side by side. After this person places the chicken breasts horizontally, what does he do next?",
+    "question_wo_referring_query": "What does he do next?",
+    "candidates": [
+      "He throws the chicken breasts away.",
+      "He puts the chicken breasts into a pot.",
+      "He does nothing.",
+      "He uses a knife to cut the two whole chicken breasts into evenly sized small pieces."
+    ],
+    "correct_choice": 3,
+    "position": [
+      51,
+      336
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "E3E",
+    "level": "L2-Relation",
+    "id": "npLd4WTSQsM_0",
+    "video_path": "npLd4WTSQsM.mp4",
+    "subtitle_path": "npLd4WTSQsM_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 332,
+    "duration": 14.0,
+    "view_count": 2855970
+  },
+  {
+    "video_id": "59iv6EYWNn8",
+    "question": "When mentioning 'foreign', there's a Chinese flag in front of a dark blue background, and a man wearing a white shirt, black suit jacket, and a blue and white striped tie. What is his hairstyle like?",
+    "question_wo_referring_query": "What is his hairstyle like?",
+    "candidates": [
+      "Long straight black hair",
+      "Big waves",
+      "Explosive hair",
+      "Black and white mixed short hair"
+    ],
+    "correct_choice": 3,
+    "position": [
+      14
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "59iv6EYWNn8_0",
+    "video_path": "59iv6EYWNn8.mp4",
+    "subtitle_path": "59iv6EYWNn8_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 284,
+    "duration": 9.0,
+    "view_count": 252557
+  },
+  {
+    "video_id": "PS0gXPNBZy8",
+    "question": "A woman wearing floral prints is walking on a small path in the countryside, surrounded by trees. There is a fence made of tree trunks on one side of the path, with a black cat walking on it. What did the woman do after leaving the path?",
+    "question_wo_referring_query": "What did the woman do after leaving the path?",
+    "candidates": [
+      "Go to the market",
+      "Kneel down to pick flowers",
+      "Go to the riverside",
+      "Go home"
+    ],
+    "correct_choice": 1,
+    "position": [
+      1,
+      38
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "E3E",
+    "level": "L2-Relation",
+    "id": "PS0gXPNBZy8_0",
+    "video_path": "PS0gXPNBZy8.mp4",
+    "subtitle_path": "PS0gXPNBZy8_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 50,
+    "duration": 8.97,
+    "view_count": 1310354
+  },
+  {
+    "video_id": "l3vxOGgAM2g",
+    "question": "When mentioning 'Music', the man wearing a white shirt, yellow jacket, and yellow pants, what type is his jacket?",
+    "question_wo_referring_query": "What type is his jacket?",
+    "candidates": [
+      "Sweater",
+      "Cotton Clothing",
+      "Coat",
+      "Jacket"
+    ],
+    "correct_choice": 3,
+    "position": [
+      78
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "l3vxOGgAM2g_0",
+    "video_path": "l3vxOGgAM2g.mp4",
+    "subtitle_path": "l3vxOGgAM2g_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 187,
+    "duration": 8.01,
+    "view_count": 16651
+  },
+  {
+    "video_id": "ZfapKqwklG4",
+    "question": "When the phrase 'forbidden instead they were welcome to' was mentioned, what action did the man in the red and purple striped clothes do in the old, broken room?",
+    "question_wo_referring_query": "What action did he do?",
+    "candidates": [
+      "Got up from the bed and ran",
+      "Ate",
+      "Covered his ears with both hands",
+      "Picked up a cup and drank water"
+    ],
+    "correct_choice": 2,
+    "position": [
+      19
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "ZfapKqwklG4_0",
+    "video_path": "ZfapKqwklG4.mp4",
+    "subtitle_path": "ZfapKqwklG4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 982,
+    "duration": 13.0,
+    "view_count": 352170
+  },
+  {
+    "video_id": "SH7Unhifaj0",
+    "question": "In a bedroom with red curtains and two different types of green plants on the balcony, what is a woman wearing a red long-sleeve sweater doing?",
+    "question_wo_referring_query": "What is she doing?",
+    "candidates": [
+      "She has her hands on her legs",
+      "She has her hands raised above her head",
+      "She has her hands clasped in front of her chest",
+      "She has her hands at her sides"
+    ],
+    "correct_choice": 2,
+    "position": [
+      81
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "SH7Unhifaj0_0",
+    "video_path": "SH7Unhifaj0.mp4",
+    "subtitle_path": "SH7Unhifaj0_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 328,
+    "duration": 13.98,
+    "view_count": 2553
+  },
+  {
+    "video_id": "Msz128EJeWE",
+    "question": "In a room, a bald man wearing a dark blue shirt and a suit, with a necklace, what did he do the first time he appeared?",
+    "question_wo_referring_query": "What did he do the first time he appeared?",
+    "candidates": [
+      "He placed his hands behind his back",
+      "He made an X gesture with his hands",
+      "He placed his hands by his sides",
+      "He raised his hands above his head"
+    ],
+    "correct_choice": 1,
+    "position": [
+      64
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "Msz128EJeWE_0",
+    "video_path": "Msz128EJeWE.mp4",
+    "subtitle_path": "Msz128EJeWE_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 59,
+    "duration": 11.01,
+    "view_count": 5734
+  },
+  {
+    "video_id": "6Z7AAcD8rbo",
+    "question": "Next to the swimming pool, there are white sunshades and trees, and there are some people inside the pool. A man wearing a gray short-sleeve shirt is taking pictures in front of the outdoor swimming pool. Besides the swimming pool, there is also a wooden dining table and some chairs. Which scene appears first?",
+    "question_wo_referring_query": ", which scene appears first?",
+    "candidates": [
+      "Next to the swimming pool, there are white sunshades and trees, and there are some people inside the pool, appears first; A man wearing a blue short-sleeve shirt is taking pictures in front of the outdoor swimming pool. Besides the swimming pool, there is also a wooden dining table and some chairs, appears later.",
+      "They are one scene.",
+      "Next to the swimming pool, there are white sunshades and trees, and there are some people inside the pool, appears first; A man wearing a gray short-sleeve shirt is taking pictures in front of the outdoor swimming pool. Besides the swimming pool, there is also a wooden dining table and some chairs, appears later.",
+      "A man wearing a gray short-sleeve shirt is taking pictures in front of the outdoor swimming pool. Besides the swimming pool, there is also a wooden dining table and some chairs, appears first. Next to the swimming pool, there are white sunshades and trees, and there are some people inside the pool, appears later."
+    ],
+    "correct_choice": 2,
+    "position": [
+      97,
+      188
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "6Z7AAcD8rbo_0",
+    "video_path": "6Z7AAcD8rbo.mp4",
+    "subtitle_path": "6Z7AAcD8rbo_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 11,
+    "duration": 13.01,
+    "view_count": 83657
+  },
+  {
+    "video_id": "9aWPbYosJUw",
+    "question": "On a red table, there is a white plate containing a delicious dish with a golden crust on the outside and cheese underneath, with the right side cut off. A person wearing gloves is picking up half of the dish. When they mention 'Its crispy exterior, with a soft cheesy heart, makes it irresistible delicious,' what kind of gloves is this person wearing?",
+    "question_wo_referring_query": "On a red table, there is a white plate containing a delicious dish with a golden crust on the outside and cheese underneath, with the right side cut off. A person wearing gloves is picking up half of the dish. When they mention 'Its crispy exterior, with a soft cheesy heart, makes it irresistible delicious,' what kind of gloves is this person wearing?",
+    "candidates": [
+      "Wearing heat-resistant cotton gloves",
+      "Wearing transparent plastic gloves",
+      "Not wearing gloves",
+      "Wearing black plastic gloves"
+    ],
+    "correct_choice": 3,
+    "position": [
+      142
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "9aWPbYosJUw_0",
+    "video_path": "9aWPbYosJUw.mp4",
+    "subtitle_path": "9aWPbYosJUw_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 128,
+    "duration": 12.0,
+    "view_count": 1623
+  },
+  {
+    "video_id": "iHzypa15yRA",
+    "question": "A woman in a black coat is standing in front of a closed store inside a mall, with a 'cna' news ticker moving below. When the phrase 'assistance at about 4:50 p.m and uh' is mentioned, what does she do?",
+    "question_wo_referring_query": "A woman in a black coat is standing in front of a closed store inside a mall, with a 'cna' news ticker moving below. When the phrase 'assistance at about 4:50 p.m and uh' is mentioned, what does she do?",
+    "candidates": [
+      "She looked down slightly at the manuscript on her phone",
+      "She ran her fingers through her hair",
+      "She switched the drink from her left hand to her right hand",
+      "She faced the camera and adjusted the lens position"
+    ],
+    "correct_choice": 0,
+    "position": [
+      96
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "iHzypa15yRA_0",
+    "video_path": "iHzypa15yRA.mp4",
+    "subtitle_path": "iHzypa15yRA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 156,
+    "duration": 13.0,
+    "view_count": 78396
+  },
+  {
+    "video_id": "Scne0ls23MA",
+    "question": "In a scene with a man in a white short-sleeve shirt, with a large rectangular account book (or register) behind him, and a brown object with a round spike at the top right corner of the screen, which of the following characters has appeared before?",
+    "question_wo_referring_query": "Which of the following characters has appeared before?",
+    "candidates": [
+      "A person wearing a blue and white headscarf and a black short-sleeve shirt",
+      "A person wearing a blue and white headscarf and a white short-sleeve shirt",
+      "A person wearing a red and white headscarf and a black short-sleeve shirt",
+      "A person wearing a red and white headscarf and a black and white striped short-sleeve shirt"
+    ],
+    "correct_choice": 3,
+    "position": [
+      59,
+      145
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "Scne0ls23MA_0",
+    "video_path": "Scne0ls23MA.mp4",
+    "subtitle_path": "Scne0ls23MA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 266,
+    "duration": 9.0,
+    "view_count": 205702
+  },
+  {
+    "video_id": "WLl3SeraTV0",
+    "question": "On a large marble countertop, there is a baking model. In the middle of the screen, a hand is holding a yellow jar and spraying it inward. What changes happen on the screen after the subtitle mentions 'so'?",
+    "question_wo_referring_query": "What changes happen on the screen?",
+    "candidates": [
+      "This person is holding a gray scoop and is stirring it inside.",
+      "This person is holding a jar of chocolate sauce and is about to pour it in.",
+      "This person is holding a yellow jar of fruit sauce and is about to pour it in.",
+      "This person is holding a red scoop and is stirring it inside."
+    ],
+    "correct_choice": 1,
+    "position": [
+      95,
+      132
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "WLl3SeraTV0_0",
+    "video_path": "WLl3SeraTV0.mp4",
+    "subtitle_path": "WLl3SeraTV0_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 95,
+    "duration": 11.01,
+    "view_count": 389605
+  },
+  {
+    "video_id": "kbRtl58u_kk",
+    "question": "In a dark room, there is a rotating fan hanging. When the screen displays white subtitles saying 'i watch all ur vedeo', what is a short-haired man wearing a green short-sleeved shirt doing?",
+    "question_wo_referring_query": "What is he doing?",
+    "candidates": [
+      "He is preparing to change clothes.",
+      "He is preparing to turn off the fan.",
+      "He is touching his own hair.",
+      "He is looking at the electric fan."
+    ],
+    "correct_choice": 3,
+    "position": [
+      44
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "kbRtl58u_kk_0",
+    "video_path": "kbRtl58u_kk.mp4",
+    "subtitle_path": "kbRtl58u_kk_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 431,
+    "duration": 7.98,
+    "view_count": 65625
+  },
+  {
+    "video_id": "pZ-9hGQNHuA",
+    "question": "At night, on a street with a car parked with its hazard lights on, a person is standing beside the car with a bent waist. On one side of the road, there are houses, and on the other side, there are houses surrounded by fences. When the text 'what's your name' is mentioned, what objects appear on the screen?",
+    "question_wo_referring_query": "What objects appear on the screen?",
+    "candidates": [
+      "Truck",
+      "Police",
+      "Table",
+      "Car, streetlight, fence"
+    ],
+    "correct_choice": 3,
+    "position": [
+      257
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "pZ-9hGQNHuA_0",
+    "video_path": "pZ-9hGQNHuA.mp4",
+    "subtitle_path": "pZ-9hGQNHuA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 93,
+    "duration": 12.01,
+    "view_count": 5248783
+  },
+  {
+    "video_id": "GZFL58_pXPg",
+    "question": "On the screen, there are many advanced math problems on a piece of white paper. Among the problems, there is also a complete brain diagram. When the subtitle mentions 'an extraordinary brain that lacked the,' what color appears on the right side of the brain diagram?",
+    "question_wo_referring_query": "What color appears on the right side of the brain diagram?",
+    "candidates": [
+      "The left side of the brain diagram is gray with stained patterns.",
+      "The right side of the brain is blue with stains.",
+      "The right side of the brain diagram is gray, resembling stains.",
+      "The left side of the brain is blue with stains."
+    ],
+    "correct_choice": 2,
+    "position": [
+      78
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "GZFL58_pXPg_0",
+    "video_path": "GZFL58_pXPg.mp4",
+    "subtitle_path": "GZFL58_pXPg_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 107,
+    "duration": 7.97,
+    "view_count": 22656
+  },
+  {
+    "video_id": "F2i-LchFVCU",
+    "question": "In a vast Milky Way, there are countless stars scattered throughout. In the upper right side of the screen, there is a slowly moving object. What is this object?",
+    "question_wo_referring_query": "In a vast Milky Way, there are countless stars scattered throughout. In the upper right side of the screen, there is a slowly moving object. What is this object?",
+    "candidates": [
+      "It is a blue planet",
+      "It is a launched satellite",
+      "It is a celestial body emitting a golden light",
+      "It is a purple planet"
+    ],
+    "correct_choice": 2,
+    "position": [
+      312
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "E2O",
+    "level": "L1-Perception",
+    "id": "F2i-LchFVCU_0",
+    "video_path": "F2i-LchFVCU.mp4",
+    "subtitle_path": "F2i-LchFVCU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 259,
+    "duration": 13.98,
+    "view_count": 5977
+  },
+  {
+    "video_id": "FOMS_yqdN1o",
+    "question": "In a room with warm lighting, a woman dressed in black is sitting on a chair holding a comb. What is she doing?",
+    "question_wo_referring_query": "Holding a comb, what is she doing?",
+    "candidates": [
+      "She is brushing her teeth",
+      "She is washing her face",
+      "She is putting on makeup",
+      "She is combing her hair"
+    ],
+    "correct_choice": 3,
+    "position": [
+      15
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "FOMS_yqdN1o_0",
+    "video_path": "FOMS_yqdN1o.mp4",
+    "subtitle_path": "FOMS_yqdN1o_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 51,
+    "duration": 10.01,
+    "view_count": 339864
+  },
+  {
+    "video_id": "M5Umm-ltnao",
+    "question": "A woman with gray clothing and pink manicured hands is holding a copper-colored bracelet up to the camera and says, 'it also comes with this chain one I.' Which object is not shown on the screen?",
+    "question_wo_referring_query": "Which object is not shown on the screen?",
+    "candidates": [
+      "black bracelet",
+      "copper bracelet",
+      "wooden door",
+      "white-framed Pegasus painting"
+    ],
+    "correct_choice": 0,
+    "position": [
+      172
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "M5Umm-ltnao_0",
+    "video_path": "M5Umm-ltnao.mp4",
+    "subtitle_path": "M5Umm-ltnao_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 1097,
+    "duration": 12.98,
+    "view_count": 41546
+  },
+  {
+    "video_id": "h2RbVVz3NZc",
+    "question": "In a small car, a man wearing a blue hoodie is next to a man wearing a white shirt. In which subtitle did these two people appear together?",
+    "question_wo_referring_query": "In which subtitle did these two people appear together?",
+    "candidates": [
+      "yep",
+      "there that's good there's a sick",
+      "we could jump off of the ones off the 20",
+      "look"
+    ],
+    "correct_choice": 2,
+    "position": [
+      56,
+      96,
+      135
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "h2RbVVz3NZc_0",
+    "video_path": "h2RbVVz3NZc.mp4",
+    "subtitle_path": "h2RbVVz3NZc_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 120,
+    "duration": 13.01,
+    "view_count": 191003
+  },
+  {
+    "video_id": "UbgwG8fcIu0",
+    "question": "In front of a white wall with a hanging picture frame, a woman wearing a blue uniform, black shorts, and holding a green notebook did what while facing the camera?",
+    "question_wo_referring_query": "What did she do while facing the camera?",
+    "candidates": [
+      "She stuck out her tongue at the camera",
+      "She adjusted her long hair facing the camera",
+      "She made a funny face at the camera",
+      "She showed her notes to the camera"
+    ],
+    "correct_choice": 0,
+    "position": [
+      60
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "UbgwG8fcIu0_0",
+    "video_path": "UbgwG8fcIu0.mp4",
+    "subtitle_path": "UbgwG8fcIu0_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 258,
+    "duration": 9.0,
+    "view_count": 13601
+  },
+  {
+    "video_id": "GAoK4XjssrM",
+    "question": "In front of a black screen, a man wearing a black short-sleeved shirt, with his left hand clenched into a fist and his right hand tightly grasping his left forearm, what object is present on the screen when he mentions 'guards for helping us out and uh that'?",
+    "question_wo_referring_query": "What object is present on the screen?",
+    "candidates": [
+      "A plain black short-sleeved shirt",
+      "A short-sleeved shirt with red, blue, and green prints",
+      "A long-sleeved shirt with red, blue, and green prints",
+      "A plain black long-sleeved shirt"
+    ],
+    "correct_choice": 1,
+    "position": [
+      115
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "GAoK4XjssrM_0",
+    "video_path": "GAoK4XjssrM.mp4",
+    "subtitle_path": "GAoK4XjssrM_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 304,
+    "duration": 9.01,
+    "view_count": 223717
+  },
+  {
+    "video_id": "jbPR2SJuFHg",
+    "question": "On a large marble table, there is a piece of baked food. A person wearing a ring is using chopsticks to apply sauce. What kind of ring is this person wearing?",
+    "question_wo_referring_query": "What kind of ring is this person wearing?",
+    "candidates": [
+      "Gold ring on the index finger",
+      "Diamond ring on the middle finger",
+      "Gold ring on the middle finger",
+      "Silver ring on the middle finger"
+    ],
+    "correct_choice": 2,
+    "position": [
+      153
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "S2A",
+    "level": "L1-Perception",
+    "id": "jbPR2SJuFHg_0",
+    "video_path": "jbPR2SJuFHg.mp4",
+    "subtitle_path": "jbPR2SJuFHg_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 57,
+    "duration": 9.01,
+    "view_count": 1179070
+  },
+  {
+    "video_id": "XvJqVKi8i_I",
+    "question": "In front of a vast outdoor sports field, a man with curly hair wearing a grey short-sleeved shirt and with blue paint on his hands, appeared in which subtitle together?",
+    "question_wo_referring_query": ", appeared in which subtitle together?",
+    "candidates": [
+      "it's the ultimate office and everywhere",
+      "where dreams are made of",
+      "is vacation",
+      "yeah yeah New York"
+    ],
+    "correct_choice": 0,
+    "position": [
+      43,
+      202
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "XvJqVKi8i_I_0",
+    "video_path": "XvJqVKi8i_I.mp4",
+    "subtitle_path": "XvJqVKi8i_I_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 100,
+    "duration": 12.01,
+    "view_count": 51292
+  },
+  {
+    "video_id": "PE32sjfN-uM",
+    "question": "In a hall with a half-body statue and two national flags in the background, two rows of people are sitting on the left and right sides, and two country representatives are seated in the middle. After mentioning 'remain on good terms with both the', what changes occur on the screen?",
+    "question_wo_referring_query": "What changes occur on the screen?",
+    "candidates": [
+      "The screen focuses on the original representative on the left side.",
+      "The screen focuses on the original representative on the right side.",
+      "The screen focuses on the two national flags in the background.",
+      "The screen cuts to the two rows of people on both sides."
+    ],
+    "correct_choice": 1,
+    "position": [
+      86,
+      110
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "PE32sjfN-uM_0",
+    "video_path": "PE32sjfN-uM.mp4",
+    "subtitle_path": "PE32sjfN-uM_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 46,
+    "duration": 9.0,
+    "view_count": 48968
+  },
+  {
+    "video_id": "2F7d7aUCmUU",
+    "question": "In a dense forest, a boy wearing a black short-sleeve shirt is sitting on a bench. When the subtitle mentions 'to positively influence us all that said', what action does the boy take?",
+    "question_wo_referring_query": "What action does the boy take when mentioned?",
+    "candidates": [
+      "Makes a fist",
+      "Waves his hand",
+      "Stands up",
+      "Claps his hands"
+    ],
+    "correct_choice": 1,
+    "position": [
+      16
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "2F7d7aUCmUU_0",
+    "video_path": "2F7d7aUCmUU.mp4",
+    "subtitle_path": "2F7d7aUCmUU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 725,
+    "duration": 7.97,
+    "view_count": 119706
+  },
+  {
+    "video_id": "mB7NW91REF4",
+    "question": "In the video, the woman with the long black hair, wearing a scarf and earrings, is about to go out. Where did she go after going out?",
+    "question_wo_referring_query": "Where did she go after going out?",
+    "candidates": [
+      "On a spacious street",
+      "In a convenience store",
+      "In a barbecue restaurant",
+      "In a bar"
+    ],
+    "correct_choice": 0,
+    "position": [
+      9,
+      224
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "E3E",
+    "level": "L2-Relation",
+    "id": "mB7NW91REF4_0",
+    "video_path": "mB7NW91REF4.mp4",
+    "subtitle_path": "mB7NW91REF4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 31,
+    "duration": 13.98,
+    "view_count": 88054
+  },
+  {
+    "video_id": "BkCbbFn21LY",
+    "question": "In the video, when the eggs and white granules in the bowl are mixed together with chopsticks, the bowl is placed on a red and white striped cloth and placed on the ground. When the subtitle mentions '2 tbsp spelled flour', what is the substance that the person takes out?",
+    "question_wo_referring_query": "What is the substance that the person takes out?",
+    "candidates": [
+      "powder",
+      "paste",
+      "frost-like",
+      "liquid"
+    ],
+    "correct_choice": 0,
+    "position": [
+      53,
+      235
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "BkCbbFn21LY_0",
+    "video_path": "BkCbbFn21LY.mp4",
+    "subtitle_path": "BkCbbFn21LY_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 27,
+    "duration": 11.0,
+    "view_count": 3440
+  },
+  {
+    "video_id": "H7gnsO4UZmU",
+    "question": "In the room, a woman wearing a necklace and white clothes is talking. When she mentions 'don't have to go to the gym for like a', which object does not appear in the scene?",
+    "question_wo_referring_query": "Which object does not appear in the scene?",
+    "candidates": [
+      "Milk tea",
+      "Tissue",
+      "Mirror",
+      "Bright lamp"
+    ],
+    "correct_choice": 0,
+    "position": [
+      52
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "H7gnsO4UZmU_0",
+    "video_path": "H7gnsO4UZmU.mp4",
+    "subtitle_path": "H7gnsO4UZmU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 313,
+    "duration": 13.0,
+    "view_count": 309587
+  },
+  {
+    "video_id": "W8w09l_mmT4",
+    "question": "In the kitchen, there is a man wearing a white short-sleeved patterned shirt cutting meat. In front of him, there are other side dishes, too. At the beginning, what happens to the meat being cut on the chopping board?",
+    "question_wo_referring_query": "At the beginning, what happens to the meat being cut on the chopping board?",
+    "candidates": [
+      "Thrown away",
+      "Lifted up",
+      "Fried in oil",
+      "Boiled in water"
+    ],
+    "correct_choice": 1,
+    "position": [
+      22,
+      109
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "SAA",
+    "level": "L2-Relation",
+    "id": "W8w09l_mmT4_0",
+    "video_path": "W8w09l_mmT4.mp4",
+    "subtitle_path": "W8w09l_mmT4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 302,
+    "duration": 9.01,
+    "view_count": 576732
+  },
+  {
+    "video_id": "7PqVVjEW0LM",
+    "question": "There is a platter with exquisite arrangement in the video, featuring items like noodles and wrapped eggs. When the subtitle mentions 'enjoy it try to base that your,' what change occurs to this platter?",
+    "question_wo_referring_query": "What change occurs to this platter?",
+    "candidates": [
+      "Completely eaten",
+      "Disappears",
+      "Sprinkled with powdery substance",
+      "Thrown into the trash can"
+    ],
+    "correct_choice": 2,
+    "position": [
+      194,
+      231
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "7PqVVjEW0LM_0",
+    "video_path": "7PqVVjEW0LM.mp4",
+    "subtitle_path": "7PqVVjEW0LM_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 307,
+    "duration": 10.01,
+    "view_count": 209409
+  },
+  {
+    "video_id": "NS2V_OHYkvA",
+    "question": "In the video, there are many well-arranged categories of foods in the supermarket. When the subtitle mentions 'so', what object is present in the bottom row of the screen?",
+    "question_wo_referring_query": "What object is present in the bottom row of the screen?",
+    "candidates": [
+      "eggs",
+      "milk tea",
+      "ice cream bars",
+      "fried chicken"
+    ],
+    "correct_choice": 0,
+    "position": [
+      159
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "NS2V_OHYkvA_0",
+    "video_path": "NS2V_OHYkvA.mp4",
+    "subtitle_path": "NS2V_OHYkvA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 223,
+    "duration": 9.01,
+    "view_count": 298229
+  },
+  {
+    "video_id": "iDFDxwPTjeU",
+    "question": "At the beginning of the video, a calendar and a hand-drawn booklet appear. With which subtitle did they appear together?",
+    "question_wo_referring_query": "With which subtitle did they appear together?",
+    "candidates": [
+      "the key",
+      "do you know",
+      "say you want",
+      "which is a very big adulting thing that"
+    ],
+    "correct_choice": 3,
+    "position": [
+      1,
+      28
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "iDFDxwPTjeU_0",
+    "video_path": "iDFDxwPTjeU.mp4",
+    "subtitle_path": "iDFDxwPTjeU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 153,
+    "duration": 13.0,
+    "view_count": 347155
+  },
+  {
+    "video_id": "18rZLZqg6C8",
+    "question": "In the video, a woman wearing a white long-sleeve sweater is sitting on a chair with a tree behind her. What movement occurs with her hands after she says 'and we booked this dreamy Cup in in'?",
+    "question_wo_referring_query": "What movement occurs with her hands?",
+    "candidates": [
+      "Tightening into a prayer position with both hands",
+      "From raising hands to a prayer position with both hands",
+      "No change",
+      "From clasping hands to raising hands"
+    ],
+    "correct_choice": 2,
+    "position": [
+      71,
+      86
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "18rZLZqg6C8_0",
+    "video_path": "18rZLZqg6C8.mp4",
+    "subtitle_path": "18rZLZqg6C8_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 103,
+    "duration": 8.0,
+    "view_count": 45905
+  },
+  {
+    "video_id": "AU0UJVNZMvA",
+    "question": "The screen has two pairs of separate eyes and a cartoon girl headshot, and in the bottom right corner there is an old man with white hair, wearing glasses and a mustache. What is the object in the middle of this screen?",
+    "question_wo_referring_query": "What is the object in the middle of this screen?",
+    "candidates": [
+      "sword",
+      "refrigerator",
+      "mobile phone",
+      "computer"
+    ],
+    "correct_choice": 0,
+    "position": [
+      93
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "S2O",
+    "level": "L1-Perception",
+    "id": "AU0UJVNZMvA_0",
+    "video_path": "AU0UJVNZMvA.mp4",
+    "subtitle_path": "AU0UJVNZMvA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 1020,
+    "duration": 14.0,
+    "view_count": 185138
+  },
+  {
+    "video_id": "u-vYvqxHejY",
+    "question": "In the video, a blonde woman is explaining something while wearing a black coat. When the person speaking mentions 'Oh, and here's a picture of her at the printing press,' there is a shadow of her pointing to an object on the wall. What is the object present in the screen?",
+    "question_wo_referring_query": "What is the object present in the screen?",
+    "candidates": [
+      "Tree",
+      "Black and white photo",
+      "Book",
+      "Watercolor painting"
+    ],
+    "correct_choice": 1,
+    "position": [
+      131
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "u-vYvqxHejY_0",
+    "video_path": "u-vYvqxHejY.mp4",
+    "subtitle_path": "u-vYvqxHejY_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 75,
+    "duration": 7.97,
+    "view_count": 143935
+  },
+  {
+    "video_id": "KFqlW0APKRA",
+    "question": "In the video, there is a woman with long hair wearing a black coat explaining a protest activity in an empty room. What was her first action when she appeared?",
+    "question_wo_referring_query": "What was her first action when she appeared?",
+    "candidates": [
+      "Sitting",
+      "Lying down",
+      "Standing",
+      "Crouching"
+    ],
+    "correct_choice": 0,
+    "position": [
+      191
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "KFqlW0APKRA_0",
+    "video_path": "KFqlW0APKRA.mp4",
+    "subtitle_path": "KFqlW0APKRA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 223,
+    "duration": 14.02,
+    "view_count": 2782
+  },
+  {
+    "video_id": "Ge5SjsgaA4o",
+    "question": "In the video, a metal tray filled with baked round food items is depicted. These items are evenly distributed across the tray and each one appears golden yellow in color. The tray is placed on a wooden table and was taken out of an oven. After taking it out, what was added to the tray?",
+    "question_wo_referring_query": "After taking it out, what was added to the tray?",
+    "candidates": [
+      "Salad",
+      "Red sauce",
+      "Fruit juice",
+      "Chopped scallions"
+    ],
+    "correct_choice": 1,
+    "position": [
+      71,
+      90
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "E3E",
+    "level": "L2-Relation",
+    "id": "Ge5SjsgaA4o_0",
+    "video_path": "Ge5SjsgaA4o.mp4",
+    "subtitle_path": "Ge5SjsgaA4o_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 116,
+    "duration": 8.01,
+    "view_count": 606674
+  },
+  {
+    "video_id": "tygk9-aneC4",
+    "question": "The screen shows a bar chart comparing the cost-effectiveness of different German tanks during World War II. Which tank, introduced first, has the lowest cost?",
+    "question_wo_referring_query": "Which tank, introduced first, has the lowest cost?",
+    "candidates": [
+      "Main Battle Tank",
+      "Tiger",
+      "Heavy Tank",
+      "Panther"
+    ],
+    "correct_choice": 3,
+    "position": [
+      17,
+      167
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "tygk9-aneC4_0",
+    "video_path": "tygk9-aneC4.mp4",
+    "subtitle_path": "tygk9-aneC4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 178,
+    "duration": 14.02,
+    "view_count": 582141
+  },
+  {
+    "video_id": "CFm3bc9gqYE",
+    "question": "In the video discussing events related to the Roman soldiers, who appears before the subtitles mention 'conditions however most historians agree'?",
+    "question_wo_referring_query": "Who appears?",
+    "candidates": [
+      "Wearing short sleeves",
+      "Wearing green clothes",
+      "Not wearing a helmet",
+      "Wearing a helmet and red clothes"
+    ],
+    "correct_choice": 3,
+    "position": [
+      25,
+      57
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "T3O",
+    "level": "L2-Relation",
+    "id": "CFm3bc9gqYE_0",
+    "video_path": "CFm3bc9gqYE.mp4",
+    "subtitle_path": "CFm3bc9gqYE_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 417,
+    "duration": 9.0,
+    "view_count": 3211907
+  },
+  {
+    "video_id": "mOiEOs3ZlT8",
+    "question": "Which of the following sequences of scenes is correct?",
+    "question_wo_referring_query": "Which of the following sequences of scenes is accurate?",
+    "candidates": [
+      "First, a woman explaining a panel of a sacrificial altar painting is shown. Then, a painting with only two women appears. Finally, another panel depicting a sacrificial altar painting is shown.",
+      "First, a painting with only two women appears. Then, a panel depicting a sacrificial altar painting is shown. Finally, a woman explaining this panel appears.",
+      "First, a panel depicting a sacrificial altar painting is shown. Then, a woman explaining this panel appears. Finally, a painting with only two women appears.",
+      "First, a painting with only two women appears. Then, a woman explaining a panel of a sacrificial altar painting is shown. Finally, the video ends with another panel depicting a sacrificial altar painting."
+    ],
+    "correct_choice": 3,
+    "position": [
+      22,
+      99,
+      189
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "SSS",
+    "level": "L2-Relation",
+    "id": "mOiEOs3ZlT8_0",
+    "video_path": "mOiEOs3ZlT8.mp4",
+    "subtitle_path": "mOiEOs3ZlT8_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 1009,
+    "duration": 12.01,
+    "view_count": 205801
+  },
+  {
+    "video_id": "QpDL3mopnWM",
+    "question": "There is a group of people on the screen, with a hillside and some scattered grass in the background. Two smaller individuals wearing yellow helmets use weapons to knock down a man with a grey helmet and beard to the ground. Where else does the man with the grey helmet and beard appear in the video?",
+    "question_wo_referring_query": "Where else does the man with the grey helmet and beard appear in the video?",
+    "candidates": [
+      "On the bed",
+      "On horseback",
+      "In the palace",
+      "In the office"
+    ],
+    "correct_choice": 1,
+    "position": [
+      57,
+      219
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "SOS",
+    "level": "L2-Relation",
+    "id": "QpDL3mopnWM_0",
+    "video_path": "QpDL3mopnWM.mp4",
+    "subtitle_path": "QpDL3mopnWM_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 182,
+    "duration": 14.02,
+    "view_count": 3936
+  },
+  {
+    "video_id": "9yQV0t5meo4",
+    "question": "In the scene on the wide street, there are a few cars and a few buildings in the background. What change occurred to the bird after it was on the ground?",
+    "question_wo_referring_query": "What change occurred to the bird after it was on the ground?",
+    "candidates": [
+      "Stayed in the same place",
+      "Walked on the ground",
+      "Flew onto a tree",
+      "Flew into the sky"
+    ],
+    "correct_choice": 3,
+    "position": [
+      36,
+      149
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "SAA",
+    "level": "L2-Relation",
+    "id": "9yQV0t5meo4_0",
+    "video_path": "9yQV0t5meo4.mp4",
+    "subtitle_path": "9yQV0t5meo4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 14,
+    "duration": 9.01,
+    "view_count": 3792
+  },
+  {
+    "video_id": "8urCPp_yhWs",
+    "question": "In the video, a desert scene appears at dusk. When the subtitle mentions 'so our stay here at Thousand nights was,' how many people appear on the screen?",
+    "question_wo_referring_query": "How many people appear on the screen?",
+    "candidates": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correct_choice": 2,
+    "position": [
+      203
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "8urCPp_yhWs_0",
+    "video_path": "8urCPp_yhWs.mp4",
+    "subtitle_path": "8urCPp_yhWs_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 465,
+    "duration": 9.0,
+    "view_count": 625947
+  },
+  {
+    "video_id": "Lk9ZihSgjdo",
+    "question": "In the video, a short-haired man and a bald man are making pizza in the kitchen. What action does the short-haired man do when he appears for the first time?",
+    "question_wo_referring_query": "What action does the short-haired man do when he appears for the first time in the video?",
+    "candidates": [
+      "Shake hands",
+      "Raise thumbs up",
+      "Hug",
+      "Bow"
+    ],
+    "correct_choice": 1,
+    "position": [
+      45
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "Lk9ZihSgjdo_0",
+    "video_path": "Lk9ZihSgjdo.mp4",
+    "subtitle_path": "Lk9ZihSgjdo_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 780,
+    "duration": 12.01,
+    "view_count": 11231399
+  },
+  {
+    "video_id": "NWOF4GqpWaw",
+    "question": "In the video, a man wearing glasses, a black suit, and a tie is explaining a picture on the right side. After the subtitle mentions 'modern world', what is the next picture that appears?",
+    "question_wo_referring_query": "What is the next picture that appears?",
+    "candidates": [
+      "A picture of a dog",
+      "A picture with the sun and the sea accompanied by subtitles",
+      "A monochrome picture",
+      "A picture of a person standing"
+    ],
+    "correct_choice": 1,
+    "position": [
+      106,
+      128
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "T3O",
+    "level": "L2-Relation",
+    "id": "NWOF4GqpWaw_0",
+    "video_path": "NWOF4GqpWaw.mp4",
+    "subtitle_path": "NWOF4GqpWaw_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 2871,
+    "duration": 13.01,
+    "view_count": 4382
+  },
+  {
+    "video_id": "TARe4G-SXfk",
+    "question": "Which of the following scene sequences is correct?",
+    "question_wo_referring_query": "Which of the following scene sequences is correct?",
+    "candidates": [
+      "First, a completely black image appears, then a messy room with a blue bed on the desk, and finally a man standing by a window looking out serves as the ending.",
+      "First, a man appears standing by a window looking out, then a completely black image appears, and finally a messy room with a blue bed on the desk serves as the ending.",
+      "First, a completely black image appears, then a man standing by a window looking out, and finally a messy room with a blue bed on the desk serves as the ending.",
+      "First, a man appears standing by a window looking out, then a messy room with a blue bed on the desk appears, and finally a completely black image serves as the ending."
+    ],
+    "correct_choice": 1,
+    "position": [
+      47,
+      214,
+      303
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "SSS",
+    "level": "L2-Relation",
+    "id": "TARe4G-SXfk_0",
+    "video_path": "TARe4G-SXfk.mp4",
+    "subtitle_path": "TARe4G-SXfk_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 71,
+    "duration": 13.97,
+    "view_count": 125114
+  },
+  {
+    "video_id": "3Qv2K_0GEE0",
+    "question": "There is a woman in the room in the video, and there is a green plant in the room. Which caption appears with the green plant at the beginning of the video?",
+    "question_wo_referring_query": "Which caption appears with the green plant at the beginning of the video?",
+    "candidates": [
+      "no",
+      "yes",
+      "I grew my first plant when I was about six years old",
+      "ok"
+    ],
+    "correct_choice": 2,
+    "position": [
+      34,
+      181
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "3Qv2K_0GEE0_0",
+    "video_path": "3Qv2K_0GEE0.mp4",
+    "subtitle_path": "3Qv2K_0GEE0_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 30,
+    "duration": 8.0,
+    "view_count": 503397
+  },
+  {
+    "video_id": "dxjKdnJFmLs",
+    "question": "On a small road, a man wearing a dark red short-sleeved T-shirt and a green hat is chatting with a man wearing a black short-sleeved T-shirt and a red hat. When the man wearing the green hat holds a shoe in his right hand, what action does the man wearing the black short-sleeved T-shirt and red hat do with his left hand?",
+    "question_wo_referring_query": "What action does the man wearing the black short-sleeved T-shirt and red hat do with his left hand?",
+    "candidates": [
+      "Throwing the shoe away",
+      "Holding a red teacup",
+      "Holding a red teacup and drinking tea",
+      "Point with his thumb and index finger at the man wearing the green hat"
+    ],
+    "correct_choice": 3,
+    "position": [
+      65
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "dxjKdnJFmLs_0",
+    "video_path": "dxjKdnJFmLs.mp4",
+    "subtitle_path": "dxjKdnJFmLs_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 363,
+    "duration": 10.98,
+    "view_count": 312966
+  },
+  {
+    "video_id": "bH1Q9AM5vik",
+    "question": "In front of several straight trees, there are a few pedestrians, including a man wearing a gray knit cap, black-rimmed glasses, and a black-and-white checkered coat. He looks sideways at the camera. What happens to him in the end?",
+    "question_wo_referring_query": "What happens to him in the end?",
+    "candidates": [
+      "He stands in a room with paintings on the wall",
+      "He sits on a bench in the park",
+      "He is now giving a lecture on a podium",
+      "He kneels in a room with paintings on the wall"
+    ],
+    "correct_choice": 0,
+    "position": [
+      229,
+      264
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "SAA",
+    "level": "L2-Relation",
+    "id": "bH1Q9AM5vik_0",
+    "video_path": "bH1Q9AM5vik.mp4",
+    "subtitle_path": "bH1Q9AM5vik_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 99,
+    "duration": 11.0,
+    "view_count": 43070
+  },
+  {
+    "video_id": "1IpgyV9u5nE",
+    "question": "The sky is already late, a man under a dim yellow streetlamp with his right hand slightly clenched is looking at a mirror. What clothes is he wearing?",
+    "question_wo_referring_query": "What clothes is he wearing?",
+    "candidates": [
+      "He is wearing a red top",
+      "He is wearing a red short-sleeved shirt",
+      "Wearing a light yellow windbreaker",
+      "Wearing a light yellow top"
+    ],
+    "correct_choice": 3,
+    "position": [
+      24
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "S2A",
+    "level": "L1-Perception",
+    "id": "1IpgyV9u5nE_0",
+    "video_path": "1IpgyV9u5nE.mp4",
+    "subtitle_path": "1IpgyV9u5nE_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 475,
+    "duration": 8.01,
+    "view_count": 4780
+  },
+  {
+    "video_id": "V0h7rJShw0g",
+    "question": "Inside a small car, a woman sitting in the driver's seat wearing a pink fleece jacket with her left hand fully opened upwards, what is she doing?",
+    "question_wo_referring_query": "What is she doing?",
+    "candidates": [
+      "She turns her head to wave at a pedestrian",
+      "She turns her head to look at the rearview mirror",
+      "She looks at the mirror and is talking",
+      "She closes her eyes to rest"
+    ],
+    "correct_choice": 2,
+    "position": [
+      77
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "V0h7rJShw0g_0",
+    "video_path": "V0h7rJShw0g.mp4",
+    "subtitle_path": "V0h7rJShw0g_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 51,
+    "duration": 13.01,
+    "view_count": 15542
+  },
+  {
+    "video_id": "GKgl3aJr5Xw",
+    "question": "In the purple background, there's a curly-haired man wearing a gray short-sleeved jacket sitting at a desk with a purple plastic bottle of water. When mentioning 'Sunghoon is your favorite person there? Soomi, doesn't this mean that Sunghoon is your favorite person there?', what did he do?",
+    "question_wo_referring_query": "What did he do?",
+    "candidates": [
+      "He spread his hands open on the desk",
+      "He picked up the water on the desk",
+      "He put his hands together and looked at the camera",
+      "He put one hand on his cheek and looked to the right"
+    ],
+    "correct_choice": 0,
+    "position": [
+      79
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "GKgl3aJr5Xw_0",
+    "video_path": "GKgl3aJr5Xw.mp4",
+    "subtitle_path": "GKgl3aJr5Xw_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 248,
+    "duration": 13.0,
+    "view_count": 15488
+  },
+  {
+    "video_id": "il_wMYlDQ6I",
+    "question": "In daytime with the sun, the video shows the process of an airplane slowly taking off. At the beginning of the video, where does the airplane on the flat ground appear?",
+    "question_wo_referring_query": ",where does the airplane on the flat ground appear at the beginning of the video?",
+    "candidates": [
+      "in the sky",
+      "remaining on the flat ground",
+      "in the ocean",
+      "on a hill"
+    ],
+    "correct_choice": 0,
+    "position": [
+      3,
+      172
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "SOS",
+    "level": "L2-Relation",
+    "id": "il_wMYlDQ6I_0",
+    "video_path": "il_wMYlDQ6I.mp4",
+    "subtitle_path": "il_wMYlDQ6I_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 13,
+    "duration": 12.0,
+    "view_count": 35954
+  },
+  {
+    "video_id": "3ZRVpYPFOl0",
+    "question": "The video explains what Mad Jack did after leaving the military and going to England. In England, he also learned archery. In the footage, he is wearing a blue long-sleeve shirt, holding a bow and arrow on a grassland. What object appeared when he shot the arrow?",
+    "question_wo_referring_query": "Which object appeared when he shot the arrow?",
+    "candidates": [
+      "boat",
+      "bird",
+      "arrow",
+      "target"
+    ],
+    "correct_choice": 2,
+    "position": [
+      122
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "S2O",
+    "level": "L1-Perception",
+    "id": "3ZRVpYPFOl0_0",
+    "video_path": "3ZRVpYPFOl0.mp4",
+    "subtitle_path": "3ZRVpYPFOl0_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 80,
+    "duration": 13.0,
+    "view_count": 7079962
+  },
+  {
+    "video_id": "OLO19ZtdRwQ",
+    "question": "The video talks about famous tourist attractions. When the subtitle mentions 'ambitious Island boasting beautiful', there are a few people inside a hall, with a couple taking photos. What type of hall appears on the screen?",
+    "question_wo_referring_query": "What type of hall appears on the screen?",
+    "candidates": [
+      "Aquarium",
+      "Museum",
+      "Not appeared",
+      "Gymnasium"
+    ],
+    "correct_choice": 0,
+    "position": [
+      112
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "T2O",
+    "level": "L1-Perception",
+    "id": "OLO19ZtdRwQ_0",
+    "video_path": "OLO19ZtdRwQ.mp4",
+    "subtitle_path": "OLO19ZtdRwQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 130,
+    "duration": 8.98,
+    "view_count": 1157
+  },
+  {
+    "video_id": "gJuOMPiixUA",
+    "question": "In a white room, there is a man wearing blue clothes and earphones, and a man wearing a grey suit jacket. In the video, which person turns around and clenches their fist?",
+    "question_wo_referring_query": "In the video, which person turns around and clenches their fist?",
+    "candidates": [
+      "The man wearing a grey suit",
+      "The man wearing a grey suit and earphones",
+      "Both turned around",
+      "The man wearing blue clothes and earphones"
+    ],
+    "correct_choice": 0,
+    "position": [
+      180
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "E2O",
+    "level": "L1-Perception",
+    "id": "gJuOMPiixUA_0",
+    "video_path": "gJuOMPiixUA.mp4",
+    "subtitle_path": "gJuOMPiixUA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 105,
+    "duration": 8.01,
+    "view_count": 21166
+  },
+  {
+    "video_id": "bDpgz_2Piqg",
+    "question": "A man wearing a grey shirt and a black hat is standing in front of a container holding food. There are many people around him, including one at the forefront wearing a black headscarf and another person in a grey shirt holding a plate of food. There's also a man wearing glasses in the corner. What type of hat is this?",
+    "question_wo_referring_query": "What type of hat is this?",
+    "candidates": [
+      "Western cowboy hat",
+      "Fisherman hat",
+      "Duck tongue hat",
+      "Beret"
+    ],
+    "correct_choice": 2,
+    "position": [
+      22
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "S2A",
+    "level": "L1-Perception",
+    "id": "bDpgz_2Piqg_0",
+    "video_path": "bDpgz_2Piqg.mp4",
+    "subtitle_path": "bDpgz_2Piqg_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 116,
+    "duration": 13.0,
+    "view_count": 2384
+  },
+  {
+    "video_id": "e_nAKiSutiA",
+    "question": "In the exhibition hall, there are two paintings hanging on the wall. A woman wearing a black shirt with her glasses on top of her head appears. What is she doing the first time she appears?",
+    "question_wo_referring_query": "What is this woman doing the first time she appears?",
+    "candidates": [
+      "She crosses her arms in front of her chest",
+      "She is clenching her fists",
+      "She raises both hands above her head",
+      "She has her palm up pointing opposite"
+    ],
+    "correct_choice": 3,
+    "position": [
+      10
+    ],
+    "topic_category": "KA-Knowledge-Art",
+    "question_category": "O2E",
+    "level": "L1-Perception",
+    "id": "e_nAKiSutiA_0",
+    "video_path": "e_nAKiSutiA.mp4",
+    "subtitle_path": "e_nAKiSutiA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 172,
+    "duration": 13.97,
+    "view_count": 44661
+  },
+  {
+    "video_id": "H_b5d-rLXJU",
+    "question": "Inside a room, there is a bookshelf filled with books and a wall covered in wallpaper. A man wearing a red short sleeve shirt is sitting on a gaming chair. When mentioning 'smd, what is caught? Piper, aka resource, is a trace format multi,' what is this man doing?",
+    "question_wo_referring_query": "What is this man doing?",
+    "candidates": [
+      "He has both hands raised above his head",
+      "He has both hands crossed in front of his chest",
+      "He is doing the V-sign with both hands",
+      "He is doing the V-sign with one hand and clenching a fist with the other"
+    ],
+    "correct_choice": 2,
+    "position": [
+      20
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "T2E",
+    "level": "L1-Perception",
+    "id": "H_b5d-rLXJU_0",
+    "video_path": "H_b5d-rLXJU.mp4",
+    "subtitle_path": "H_b5d-rLXJU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 216,
+    "duration": 10.01,
+    "view_count": 153014
+  },
+  {
+    "video_id": "anQ5KFW8Gn4",
+    "question": "On a grassland with blue sky and white clouds, a soldier riding a horse and holding a long spear leads other soldiers also riding horses. What happens next?",
+    "question_wo_referring_query": "What happens next?",
+    "candidates": [
+      "Two generals lead a row of soldiers holding long spears and shields in training.",
+      "A general leads a row of soldiers resting on the grassland.",
+      "A general leads a row of soldiers on horseback in battle.",
+      "A general leads a row of soldiers holding long spears and shields in training."
+    ],
+    "correct_choice": 3,
+    "position": [
+      118,
+      219
+    ],
+    "topic_category": "KH-Knowledge-History",
+    "question_category": "E3E",
+    "level": "L2-Relation",
+    "id": "anQ5KFW8Gn4_0",
+    "video_path": "anQ5KFW8Gn4.mp4",
+    "subtitle_path": "anQ5KFW8Gn4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 147,
+    "duration": 12.01,
+    "view_count": 2563
+  },
+  {
+    "video_id": "Vn-z0qXp9bQ",
+    "question": "A man wearing a pink hat is sitting next to a computer. He is wearing a brown short-sleeved T-shirt and glasses. After raising his right hand and saying 'with different lenses if you look at,' what action did he take next?",
+    "question_wo_referring_query": "What action did the man take next?",
+    "candidates": [
+      "The man on the left wearing a pink hat is standing with his hands in his pockets looking forward, and the man on the right wearing a black hat is standing with his hands in his pockets looking to the right front.",
+      "The man on the left wearing a pink hat is standing with his hands in his pockets looking forward, and the man on the right wearing a black hat is standing with his hands in his pockets looking down.",
+      "The man on the left wearing a pink hat is standing with his hands raised, and the man on the right wearing a black hat is standing with his hands in his pockets looking to the right front.",
+      "The man on the left wearing a pink hat is standing with his hands in his pockets looking forward, and the man on the right wearing a black hat is leaning against a tree looking up at the sky."
+    ],
+    "correct_choice": 0,
+    "position": [
+      27,
+      39
+    ],
+    "topic_category": "LT-Lifestyle-Travel-Guides",
+    "question_category": "T3E",
+    "level": "L2-Relation",
+    "id": "Vn-z0qXp9bQ_0",
+    "video_path": "Vn-z0qXp9bQ.mp4",
+    "subtitle_path": "Vn-z0qXp9bQ_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 148,
+    "duration": 10.01,
+    "view_count": 728
+  },
+  {
+    "video_id": "ZL07dkaoHOg",
+    "question": "A girl wearing a knitted shirt, with her right hand, took a white piece of clothing from a grey bag. When 'music' is mentioned, what other changes does this bag undergo?",
+    "question_wo_referring_query": "When 'music' is mentioned, what other changes does this bag undergo?",
+    "candidates": [
+      "The color of the bag changes.",
+      "The bag becomes empty.",
+      "The bag becomes smaller.",
+      "The bag becomes bigger."
+    ],
+    "correct_choice": 1,
+    "position": [
+      56,
+      178
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "TAA",
+    "level": "L2-Relation",
+    "id": "ZL07dkaoHOg_0",
+    "video_path": "ZL07dkaoHOg.mp4",
+    "subtitle_path": "ZL07dkaoHOg_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 841,
+    "duration": 13.0,
+    "view_count": 33475
+  },
+  {
+    "video_id": "g_kziK-UOSU",
+    "question": "A car is stuck in a crevice between mountain rocks, severely damaged and emitting white smoke upwards. A person wearing blue clothing approaches the accident scene. What did this person in blue do afterwards?",
+    "question_wo_referring_query": "What did the person in blue do afterwards?",
+    "candidates": [
+      "Hold a fire extinguisher in their left hand",
+      "Hold a fire extinguisher in their right hand",
+      "Climb the mountain holding something in their left hand",
+      "Climb the mountain holding something in their right hand"
+    ],
+    "correct_choice": 3,
+    "position": [
+      204,
+      241
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "g_kziK-UOSU_0",
+    "video_path": "g_kziK-UOSU.mp4",
+    "subtitle_path": "g_kziK-UOSU_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 2554,
+    "duration": 10.01,
+    "view_count": 27412
+  },
+  {
+    "video_id": "VPcdtoldWCA",
+    "question": "In the cold winter, a simple kitchen made of wood was built; the kitchen has many food ingredients piled up. Which ingredient is currently being cut?",
+    "question_wo_referring_query": "Which ingredient is currently being cut?",
+    "candidates": [
+      "Onion",
+      "Tomato",
+      "Potato",
+      "Chili Pepper",
+      "Pumpkin"
+    ],
+    "correct_choice": 0,
+    "position": [
+      94
+    ],
+    "topic_category": "LC-Lifestyle-Cooking-Recipes",
+    "question_category": "S2O",
+    "level": "L1-Perception",
+    "id": "VPcdtoldWCA_0",
+    "video_path": "VPcdtoldWCA.mp4",
+    "subtitle_path": "VPcdtoldWCA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 567,
+    "duration": 8.01,
+    "view_count": 2392783
+  },
+  {
+    "video_id": "K24dFfIM0gI",
+    "question": "On the narrow mountain roads where the road is blocked tightly with crawling traffic, filled with all kinds of trucks, which subtitles appear simultaneously when two rows of trucks are tightly connected on the congested road?",
+    "question_wo_referring_query": ", when two rows of trucks are tightly connected on the congested road, which subtitles appear simultaneously?",
+    "candidates": [
+      "disputes Pakistan sometimes shuts is ",
+      "Crossings with Afghanistan causing",
+      "Economically and it's not only on its",
+      "Millions is sulfur"
+    ],
+    "correct_choice": 2,
+    "position": [
+      179
+    ],
+    "topic_category": "NP-News-Programs",
+    "question_category": "TOS",
+    "level": "L2-Relation",
+    "id": "K24dFfIM0gI_0",
+    "video_path": "K24dFfIM0gI.mp4",
+    "subtitle_path": "K24dFfIM0gI_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 91,
+    "duration": 10.0,
+    "view_count": 78728
+  },
+  {
+    "video_id": "mHccnoh9f5w",
+    "question": "In a gray and hazy image, there is a terrain map with vertical and horizontal grooves in the middle, with a whitish-grayish background. When 'cover Australia or Antarctica' is mentioned, what kind of arrow appears on the screen?",
+    "question_wo_referring_query": "What kind of arrow appears on the screen?",
+    "candidates": [
+      "A blue arrow with a scissor tail",
+      "A standard red arrow",
+      "A red arrow with a scissor tail",
+      "A standard blue arrow"
+    ],
+    "correct_choice": 3,
+    "position": [
+      102
+    ],
+    "topic_category": "KG-Knowledge-Geography",
+    "question_category": "T2A",
+    "level": "L1-Perception",
+    "id": "mHccnoh9f5w_0",
+    "video_path": "mHccnoh9f5w.mp4",
+    "subtitle_path": "mHccnoh9f5w_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 249,
+    "duration": 8.01,
+    "view_count": 2186
+  },
+  {
+    "video_id": "Q4GK4asczVA",
+    "question": "In a bedroom with a few paintings hanging on the wall, a woman wearing a blue shirt, suspenders, and glasses, with a smile on her face, is holding items in dark blue, white, and olive green colors. On a table, there are 3 perfume cards, each with items of dark blue, white, and olive green colors. Which scene appears first?",
+    "question_wo_referring_query": "Which scene appears first?",
+    "candidates": [
+      "First appears the woman in a bedroom with a few paintings hanging on the wall, wearing a blue shirt, suspenders, and glasses, smiling and holding items in dark blue, white, and olive green colors. Last appears the table with 3 perfume cards, each with items in dark blue, white, and olive green colors.",
+      "First appears the table with 3 perfume cards, each with items in dark blue, white, and olive green colors. Last appears the woman in a bedroom with a few paintings hanging on the wall, wearing a blue shirt, suspenders, and glasses, smiling and holding items in dark blue, white, and olive green colors.",
+      "They appear simultaneously.",
+      "First appears the woman in a bedroom with a few paintings hanging on the wall, wearing a blue shirt, suspenders, and glasses, smiling and holding items in dark blue, white, and olive green colors. Last appears the solo scene of the woman."
+    ],
+    "correct_choice": 0,
+    "position": [
+      141,
+      254
+    ],
+    "topic_category": "LV-Lifestyle-Life-Vlogs",
+    "question_category": "O3O",
+    "level": "L2-Relation",
+    "id": "Q4GK4asczVA_0",
+    "video_path": "Q4GK4asczVA.mp4",
+    "subtitle_path": "Q4GK4asczVA_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 308,
+    "duration": 11.01,
+    "view_count": 126137
+  },
+  {
+    "video_id": "Y5833KeDmp4",
+    "question": "In the scene, there is a man with black clothes and black hair and a woman with vintage hair styled in a court manner and wearing a light green dress. Behind them is a walkway with hanging lanterns and a large chandelier. What did the two do?",
+    "question_wo_referring_query": "?",
+    "candidates": [
+      "shake hands",
+      "embrace",
+      "look at each other",
+      "hold hands",
+      "run"
+    ],
+    "correct_choice": 2,
+    "position": [
+      100
+    ],
+    "topic_category": "Recreational: MR-Movie-Recaps",
+    "question_category": "S2E",
+    "level": "L1-Perception",
+    "id": "Y5833KeDmp4_0",
+    "video_path": "Y5833KeDmp4.mp4",
+    "subtitle_path": "Y5833KeDmp4_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 157,
+    "duration": 9.01,
+    "view_count": 59905
+  },
+  {
+    "video_id": "e11Q4ThFu5A",
+    "question": "In the video, a man and a woman are leaning on each other. The woman is wearing a black backless dress and has golden hair, while the man is wearing a grey suit and a yellow tie. There are many other people in the background, and they are in a banquet hall. The woman is wearing a necklace and holding a cup in her hand. What material is the cup made of?",
+    "question_wo_referring_query": "What material is the cup made of?",
+    "candidates": [
+      "Crystal glass cup",
+      "Transparent glass cup",
+      "Metal cup",
+      "Ceramic cup",
+      "Transparent plastic cup"
+    ],
+    "correct_choice": 1,
+    "position": [
+      191
+    ],
+    "topic_category": "Recreational: MR-Movie-Recaps",
+    "question_category": "S2A",
+    "level": "L1-Perception",
+    "id": "e11Q4ThFu5A_0",
+    "video_path": "e11Q4ThFu5A.mp4",
+    "subtitle_path": "e11Q4ThFu5A_en.json",
+    "duration_group": 15,
+    "starting_timestamp_for_subtitles": 92,
+    "duration": 13.98,
+    "view_count": 826146
   }
 ]
